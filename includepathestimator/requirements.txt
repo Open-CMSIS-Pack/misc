@@ -1,0 +1,2 @@
+PyYAML==5.4.1
+yamlordereddictloader==0.4.0

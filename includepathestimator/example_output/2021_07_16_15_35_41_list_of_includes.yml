@@ -1,0 +1,247 @@
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib:
+  types:
+  - mandatory
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/addons/ipv6_static_routing:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/addons/netconn/external_resolve:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/addons/tcp_isn:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/addons/tcp_md5:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/apps/chargen:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/apps/httpserver:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/apps/netio:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/apps/ping:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/apps/rtp:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/apps/shell:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/apps/socket_examples:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/apps/tcpecho:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/apps/tcpecho_raw:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/apps/udpecho:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/apps/udpecho_raw:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/examples/example_app:
+  types:
+  - optional
+  - mandatory
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/examples/httpd/cgi_example:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/examples/httpd/fs_example:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/examples/httpd/genfiles_example:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/examples/httpd/https_example:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/examples/httpd/ssi_example:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/examples/lwiperf:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/examples/mdns:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/examples/mqtt:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/examples/ppp:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/examples/snmp:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/examples/snmp/snmp_private_mib:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/examples/snmp/snmp_v3:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/examples/sntp:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/examples/tftp:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/ports/freertos/include:
+  types:
+  - mandatory
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/ports/freertos/include/arch:
+  types:
+  - mandatory
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/ports/unix/check:
+  types:
+  - mandatory
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/ports/unix/lib:
+  types:
+  - optional
+  - mandatory
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/ports/unix/port/include:
+  types:
+  - mandatory
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/ports/unix/port/include/arch:
+  types:
+  - mandatory
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/ports/unix/port/include/netif:
+  types:
+  - mandatory
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/ports/win32:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/ports/win32/check:
+  types:
+  - mandatory
+  - optional
+  - ambiguous
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/ports/win32/check/sys:
+  types:
+  - mandatory
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/ports/win32/example_app:
+  types:
+  - ambiguous
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/ports/win32/include:
+  types:
+  - mandatory
+  - ambiguous
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/ports/win32/include/arch:
+  types:
+  - mandatory
+c:/GIT/mcu-sdk-2.0/middleware/lwip/contrib/ports/win32/msvc:
+  types:
+  - ambiguous
+c:/GIT/mcu-sdk-2.0/middleware/lwip/port:
+  types:
+  - mandatory
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/port/arch:
+  types:
+  - optional
+  - mandatory
+c:/GIT/mcu-sdk-2.0/middleware/lwip/src/apps/altcp_tls:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/src/apps/http:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/src/apps/http/fs:
+  types:
+  - ambiguous
+c:/GIT/mcu-sdk-2.0/middleware/lwip/src/apps/http/makefsdata:
+  types:
+  - ambiguous
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/src/apps/httpsrv:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/src/apps/snmp:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/src/include:
+  types:
+  - mandatory
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/src/include/compat/posix:
+  types:
+  - mandatory
+c:/GIT/mcu-sdk-2.0/middleware/lwip/src/include/compat/stdc:
+  types:
+  - mandatory
+c:/GIT/mcu-sdk-2.0/middleware/lwip/src/include/lwip:
+  types:
+  - mandatory
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/src/include/lwip/apps:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/src/include/netif/ppp:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/template:
+  types:
+  - mandatory
+c:/GIT/mcu-sdk-2.0/middleware/lwip/test/fuzz:
+  types:
+  - mandatory
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/test/sockets:
+  types:
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/test/unit:
+  types:
+  - mandatory
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/test/unit/api:
+  types:
+  - optional
+  - ambiguous
+c:/GIT/mcu-sdk-2.0/middleware/lwip/test/unit/arch:
+  types:
+  - mandatory
+  - ambiguous
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/test/unit/core:
+  types:
+  - ambiguous
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/test/unit/dhcp:
+  types:
+  - ambiguous
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/test/unit/etharp:
+  types:
+  - ambiguous
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/test/unit/ip4:
+  types:
+  - ambiguous
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/test/unit/ip6:
+  types:
+  - ambiguous
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/test/unit/mdns:
+  types:
+  - ambiguous
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/test/unit/mqtt:
+  types:
+  - ambiguous
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/test/unit/tcp:
+  types:
+  - ambiguous
+  - optional
+c:/GIT/mcu-sdk-2.0/middleware/lwip/test/unit/udp:
+  types:
+  - ambiguous
+  - optional
