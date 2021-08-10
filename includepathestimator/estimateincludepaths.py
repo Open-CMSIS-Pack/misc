@@ -19,7 +19,121 @@ import yaml
 import yamlordereddictloader
 
 source_types = [".cpp", ".c", ".h", ".asm", ".s", ".S"]
-
+known_system_includes = ['_ansi.h',
+                   '_fake_defines.h',
+                   '_fake_typedefs.h',
+                   '_syslist.h',
+                   'aio.h',
+                   'alloca.h',
+                   'ar.h',
+                   'argz.h',
+                   'assert.h',
+                   'c_types.h',
+                   'cerrno',
+                   'cmath',
+                   'complex.h',
+                   'cpio.h',
+                   'cstddef',
+                   'cstdint',
+                   'cstdio',
+                   'cstdlib',
+                   'cstring',
+                   'ctype.h',
+                   'dirent.h',
+                   'dlfcn.h',
+                   'emmintrin.h',
+                   'endian.h',
+                   'envz.h',
+                   'errno.h',
+                   'evntprov.h',
+                   'evntrace.h',
+                   'fastmath.h',
+                   'fcntl.h',
+                   'features.h',
+                   'fenv.h',
+                   'float.h',
+                   'fmtmsg.h',
+                   'fnmatch.h',
+                   'ftw.h',
+                   'getopt.h',
+                   'glob.h',
+                   'grp.h',
+                   'iconv.h',
+                   'ieeefp.h',
+                   'immintrin.h',
+                   'intrinsics.h',
+                   'inttypes.h',
+                   'iso646.h',
+                   'langinfo.h',
+                   'libgen.h',
+                   'libintl.h',
+                   'limits.h',
+                   'locale.h',
+                   'malloc.h',
+                   'math.h',
+                   'monetary.h',
+                   'mqueue.h',
+                   'ndbm.h',
+                   'netdb.h',
+                   'newlib.h',
+                   'nl_types.h',
+                   'paths.h',
+                   'poll.h',
+                   'process.h',
+                   'pthread.h',
+                   'pwd.h',
+                   'reent.h',
+                   'regdef.h',
+                   'regex.h',
+                   'sched.h',
+                   'search.h',
+                   'semaphore.h',
+                   'setjmp.h',
+                   'signal.h',
+                   'smmintrin.h',
+                   'spawn.h',
+                   'stdarg.h',
+                   'stdbool.h',
+                   'stddef.h',
+                   'stdint.h',
+                   'stdio.h',
+                   'stdlib.h',
+                   'string.h',
+                   'strings.h',
+                   'stropts.h',
+                   'sys/mkdev.h',
+                   'sys/param.h',
+                   'sys/reboot.h',
+                   'sys/resource.h',
+                   'sys/signal.h',
+                   'sys/socket.h',
+                   'sys/stat.h',
+                   'sys/syscall.h',
+                   'sys/time.h',
+                   'sys/times.h',
+                   'sys/types.h',
+                   'sys/uio.h',
+                   'sys/un.h',
+                   'sys/wait.h',
+                   'syslog.h',
+                   'tar.h',
+                   'termios.h',
+                   'tgmath.h',
+                   'time.h',
+                   'trace.h',
+                   'ulimit.h',
+                   'unctrl.h',
+                   'unistd.h',
+                   'utime.h',
+                   'utmp.h',
+                   'utmpx.h',
+                   'wchar.h',
+                   'wctype.h',
+                   'windows.h',
+                   'winsock2.h',
+                   'wmistr.h',
+                   'wordexp.h',
+                   'zlib.h']
 
 def args():
     """Load arguments from command line."""
@@ -99,9 +213,10 @@ def internal_includes(include_list, file_list):
     internal_include_list = list()
     for include in include_list:
         include_tokens = include.split(separator())
+        up_reference_count = include_tokens.count("..")
         for file in file_list:
             file_tokens = file.split(separator())
-            if file_tokens[-len(include_tokens) :] == include_tokens:
+            if file_tokens[-len(include_tokens) + up_reference_count :] == include_tokens[up_reference_count:]:
                 internal_include_list.append(include)
     return sorted(set(internal_include_list))
 
@@ -112,6 +227,10 @@ def external_includes(include_list, internal_include_list):
     external_include_list = sorted(set(external_include_list))
     return external_include_list
 
+
+def system_includes(include_list):
+    """Return system includes used in examined source files."""
+    return sorted(set([include for include in include_list if include in known_system_includes]))
 
 def up_level_references_folders(
     include_path_candidate, up_reference_count, header_tokens
@@ -184,7 +303,7 @@ def include_paths_for_include(source, include, headers):
     ambiguous_paths = list()
     # Find if include in source_file could be mapped to some internal header
     # path.
-    file_tokens = source.split(separator())
+    source_tokens = source.split(separator())
     include_tokens = include.split(separator())
     # Upper level references might result in multiple possible include paths.
     up_reference_count = include_tokens.count("..")
@@ -209,7 +328,8 @@ def include_paths_for_include(source, include, headers):
                     database, ambiguous_paths, header_file
                 )
             else:
-                if not header_tokens[:-1] == file_tokens[:-1]:
+                # in context record should be mandatory include paths even if there is system alternative
+                if not header_tokens[:-1] == source_tokens[:-1] : # and (include not in known_system_includes)
                     database = record_mandatory_paths(
                         database, include_path_candidate, header_file
                     )
@@ -368,24 +488,46 @@ def record_include_paths(database, headers):
             }
     return database
 
-def console_print(sorted_include_paths):
+
+def record_include_types(database, internal_include_list):
+    """Save estimated include types into database record"""
+    #database = defaultdict(list, database)
+    root = get_root(database)
+    print(type(database))
+    for source in database[root]["source_files"].keys():
+        for include in database[root]["source_files"][source]["includes"].keys():
+            if "include_type" not in database[root]["source_files"][source]["includes"][include].keys():
+                database[root]["source_files"][source]["includes"][include]["include_type"] = []
+            if include in known_system_includes:
+                if "system" not in database[root]["source_files"][source]["includes"][include]["include_type"]:
+                    database[root]["source_files"][source]["includes"][include]["include_type"].append("system")
+            if include in internal_include_list:
+                if "internal" not in database[root]["source_files"][source]["includes"][include]["include_type"]:
+                    database[root]["source_files"][source]["includes"][include]["include_type"].append("internal")
+            else:
+                if "external" not in database[root]["source_files"][source]["includes"][include]["include_type"]:
+                    database[root]["source_files"][source]["includes"][include]["include_type"].append("external")
+    return database
+
+
+def console_print(include_paths_by_type):
     # Print estimated include paths into console
-    if "mandatory" in sorted_include_paths.keys():
+    if "mandatory" in include_paths_by_type.keys():
         print("\nMandatory paths:")
         print("------------------------")
-        for path in sorted_include_paths["mandatory"]:
+        for path in include_paths_by_type["mandatory"]:
             print(path)
 
-    if "optional" in sorted_include_paths.keys():
+    if "optional" in include_paths_by_type.keys():
         print("\nOptional paths:")
         print("------------------------")
-        for path in sorted_include_paths["optional"]:
+        for path in include_paths_by_type["optional"]:
             print(path)
 
-    if "ambiguous" in sorted_include_paths.keys():
+    if "ambiguous" in include_paths_by_type.keys():
         print("\nAmbiguous paths:")
         print("------------------------")
-        for path in sorted_include_paths["ambiguous"]:
+        for path in include_paths_by_type["ambiguous"]:
             print(path)
 
 
@@ -396,7 +538,7 @@ def estimate_include_paths(arguments):
     start_time = time.time()
 
     now = datetime.datetime.now()
-    time_now = now.strftime("%Y_%m_%d_%H_%M_%S")
+    time_now = now.strftime("%Y-%m-%d_%H-%M-%S")
 
     sources = source_files(arguments.root)
     headers = header_files(sources)
@@ -408,10 +550,15 @@ def estimate_include_paths(arguments):
     database = record_includes(database)
     database = record_include_paths(database, headers)
 
-    summarized_include_paths = paths_report(database)
-    sorted_include_paths = path_types_report(summarized_include_paths)
+    internal_include_list = internal_includes(includes_list, headers)
+    database = record_include_types(database, internal_include_list)
 
-    console_print(sorted_include_paths)
+    summarized_include_paths = paths_report(database)
+    include_paths_by_type = path_types_report(summarized_include_paths)
+
+    #include_paths_by_include = include_path_by_include_report(database)
+
+    console_print(include_paths_by_type)
 
     # Dump database objects into yml files
     stream = open("%s_include_statistics.yml" % (time_now), "w")
@@ -426,7 +573,7 @@ def estimate_include_paths(arguments):
     yaml.dump(dict(summarized_include_paths), stream, Dumper=NoAliasDumper, width=1000)
 
     stream = open("%s_list_of_include_path_types.yml" % (time_now), "w")
-    yaml.dump(dict(sorted_include_paths), stream, Dumper=NoAliasDumper, width=1000)
+    yaml.dump(dict(include_paths_by_type), stream, Dumper=NoAliasDumper, width=1000)
 
     stream = open("%s_full_database_record.yml" % (time_now), "w")
     yaml.dump(dict(database), stream, Dumper=NoAliasDumper, width=1000)
@@ -440,29 +587,28 @@ def estimate_include_paths(arguments):
     print("------------------------", file=report_file)
     print(str(datetime.timedelta(seconds=end_time - start_time)), file=report_file)
 
-    if "mandatory" in sorted_include_paths.keys():
+    if "mandatory" in include_paths_by_type.keys():
         print("\nMandatory include paths:", file=report_file)
         print("------------------------", file=report_file)
-        for path in sorted_include_paths["mandatory"]:
+        for path in include_paths_by_type["mandatory"]:
             print(path, file=report_file)
 
-    if "optional" in sorted_include_paths.keys():
+    if "optional" in include_paths_by_type.keys():
         print("\nOptional include paths:", file=report_file)
         print("------------------------", file=report_file)
-        for path in sorted_include_paths["optional"]:
+        for path in include_paths_by_type["optional"]:
             print(path, file=report_file)
 
-    if "ambiguous" in sorted_include_paths.keys():
+    if "ambiguous" in include_paths_by_type.keys():
         print("\nAmbiguous include paths:", file=report_file)
         print("------------------------", file=report_file)
-        for path in sorted_include_paths["ambiguous"]:
+        for path in include_paths_by_type["ambiguous"]:
             print(path, file=report_file)
 
     print("\nCommon include path prefix:", file=report_file)
     print("------------------------", file=report_file)
     print(os.path.commonprefix(list(summarized_include_paths.keys())), file=report_file)
 
-    internal_include_list = internal_includes(includes_list, headers)
 
     print("\nInternal include list:", file=report_file)
     print("------------------------", file=report_file)
@@ -473,6 +619,10 @@ def estimate_include_paths(arguments):
     print_list(
         external_includes(includes_list, internal_include_list), file=report_file
     )
+
+    print("\nSystem include list:", file=report_file)
+    print("------------------------", file=report_file)
+    print_list(system_includes(includes_list), file=report_file)
 
     print("\nC source file list:", file=report_file)
     print("------------------------", file=report_file)
