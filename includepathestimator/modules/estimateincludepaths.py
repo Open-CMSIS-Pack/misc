@@ -139,7 +139,7 @@ def args():
     """Load arguments from command line."""
     parser = argparse.ArgumentParser(
         description="Include path estimator.",
-        epilog=r"Example: py estimateincludepaths.py -r c:\GIT\mcu-sdk-2.0\middleware\lwip",
+        epilog=r"Example: python estimateincludepaths.py -r c:\GIT\mcu-sdk-2.0\middleware\lwip",
     )
     parser.add_argument(
         "-r",
