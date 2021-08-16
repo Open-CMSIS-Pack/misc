@@ -20,120 +20,121 @@ import yamlordereddictloader
 
 source_types = [".cpp", ".c", ".h", ".asm", ".s", ".S"]
 known_system_includes = ['_ansi.h',
-                   '_fake_defines.h',
-                   '_fake_typedefs.h',
-                   '_syslist.h',
-                   'aio.h',
-                   'alloca.h',
-                   'ar.h',
-                   'argz.h',
-                   'assert.h',
-                   'c_types.h',
-                   'cerrno',
-                   'cmath',
-                   'complex.h',
-                   'cpio.h',
-                   'cstddef',
-                   'cstdint',
-                   'cstdio',
-                   'cstdlib',
-                   'cstring',
-                   'ctype.h',
-                   'dirent.h',
-                   'dlfcn.h',
-                   'emmintrin.h',
-                   'endian.h',
-                   'envz.h',
-                   'errno.h',
-                   'evntprov.h',
-                   'evntrace.h',
-                   'fastmath.h',
-                   'fcntl.h',
-                   'features.h',
-                   'fenv.h',
-                   'float.h',
-                   'fmtmsg.h',
-                   'fnmatch.h',
-                   'ftw.h',
-                   'getopt.h',
-                   'glob.h',
-                   'grp.h',
-                   'iconv.h',
-                   'ieeefp.h',
-                   'immintrin.h',
-                   'intrinsics.h',
-                   'inttypes.h',
-                   'iso646.h',
-                   'langinfo.h',
-                   'libgen.h',
-                   'libintl.h',
-                   'limits.h',
-                   'locale.h',
-                   'malloc.h',
-                   'math.h',
-                   'monetary.h',
-                   'mqueue.h',
-                   'ndbm.h',
-                   'netdb.h',
-                   'newlib.h',
-                   'nl_types.h',
-                   'paths.h',
-                   'poll.h',
-                   'process.h',
-                   'pthread.h',
-                   'pwd.h',
-                   'reent.h',
-                   'regdef.h',
-                   'regex.h',
-                   'sched.h',
-                   'search.h',
-                   'semaphore.h',
-                   'setjmp.h',
-                   'signal.h',
-                   'smmintrin.h',
-                   'spawn.h',
-                   'stdarg.h',
-                   'stdbool.h',
-                   'stddef.h',
-                   'stdint.h',
-                   'stdio.h',
-                   'stdlib.h',
-                   'string.h',
-                   'strings.h',
-                   'stropts.h',
-                   'sys/mkdev.h',
-                   'sys/param.h',
-                   'sys/reboot.h',
-                   'sys/resource.h',
-                   'sys/signal.h',
-                   'sys/socket.h',
-                   'sys/stat.h',
-                   'sys/syscall.h',
-                   'sys/time.h',
-                   'sys/times.h',
-                   'sys/types.h',
-                   'sys/uio.h',
-                   'sys/un.h',
-                   'sys/wait.h',
-                   'syslog.h',
-                   'tar.h',
-                   'termios.h',
-                   'tgmath.h',
-                   'time.h',
-                   'trace.h',
-                   'ulimit.h',
-                   'unctrl.h',
-                   'unistd.h',
-                   'utime.h',
-                   'utmp.h',
-                   'utmpx.h',
-                   'wchar.h',
-                   'wctype.h',
-                   'windows.h',
-                   'winsock2.h',
-                   'wmistr.h',
-                   'wordexp.h',
-                   'zlib.h']
+                         '_fake_defines.h',
+                         '_fake_typedefs.h',
+                         '_syslist.h',
+                         'aio.h',
+                         'alloca.h',
+                         'ar.h',
+                         'argz.h',
+                         'assert.h',
+                         'c_types.h',
+                         'cerrno',
+                         'cmath',
+                         'complex.h',
+                         'cpio.h',
+                         'cstddef',
+                         'cstdint',
+                         'cstdio',
+                         'cstdlib',
+                         'cstring',
+                         'ctype.h',
+                         'dirent.h',
+                         'dlfcn.h',
+                         'emmintrin.h',
+                         'endian.h',
+                         'envz.h',
+                         'errno.h',
+                         'evntprov.h',
+                         'evntrace.h',
+                         'fastmath.h',
+                         'fcntl.h',
+                         'features.h',
+                         'fenv.h',
+                         'float.h',
+                         'fmtmsg.h',
+                         'fnmatch.h',
+                         'ftw.h',
+                         'getopt.h',
+                         'glob.h',
+                         'grp.h',
+                         'iconv.h',
+                         'ieeefp.h',
+                         'immintrin.h',
+                         'intrinsics.h',
+                         'inttypes.h',
+                         'iso646.h',
+                         'langinfo.h',
+                         'libgen.h',
+                         'libintl.h',
+                         'limits.h',
+                         'locale.h',
+                         'malloc.h',
+                         'math.h',
+                         'monetary.h',
+                         'mqueue.h',
+                         'ndbm.h',
+                         'netdb.h',
+                         'newlib.h',
+                         'nl_types.h',
+                         'paths.h',
+                         'poll.h',
+                         'process.h',
+                         'pthread.h',
+                         'pwd.h',
+                         'reent.h',
+                         'regdef.h',
+                         'regex.h',
+                         'sched.h',
+                         'search.h',
+                         'semaphore.h',
+                         'setjmp.h',
+                         'signal.h',
+                         'smmintrin.h',
+                         'spawn.h',
+                         'stdarg.h',
+                         'stdbool.h',
+                         'stddef.h',
+                         'stdint.h',
+                         'stdio.h',
+                         'stdlib.h',
+                         'string.h',
+                         'strings.h',
+                         'stropts.h',
+                         'sys/mkdev.h',
+                         'sys/param.h',
+                         'sys/reboot.h',
+                         'sys/resource.h',
+                         'sys/signal.h',
+                         'sys/socket.h',
+                         'sys/stat.h',
+                         'sys/syscall.h',
+                         'sys/time.h',
+                         'sys/times.h',
+                         'sys/types.h',
+                         'sys/uio.h',
+                         'sys/un.h',
+                         'sys/wait.h',
+                         'syslog.h',
+                         'tar.h',
+                         'termios.h',
+                         'tgmath.h',
+                         'time.h',
+                         'trace.h',
+                         'ulimit.h',
+                         'unctrl.h',
+                         'unistd.h',
+                         'utime.h',
+                         'utmp.h',
+                         'utmpx.h',
+                         'wchar.h',
+                         'wctype.h',
+                         'windows.h',
+                         'winsock2.h',
+                         'wmistr.h',
+                         'wordexp.h',
+                         'zlib.h']
+
 
 def args():
     """Load arguments from command line."""
@@ -159,7 +160,12 @@ def source_files(source_folder):
     """Get list of source files from source folder."""
     sources = list()
     for source_type in source_types:
-        sources.extend(glob.glob(source_folder + "/**/*" + source_type, recursive=True))
+        sources.extend(
+            glob.glob(
+                source_folder +
+                "/**/*" +
+                source_type,
+                recursive=True))
     sources = sorted(map(lambda path: PurePath(path).as_posix(), sources))
     return sources
 
@@ -176,20 +182,14 @@ def c_source_files(file_list):
 
 def header_folders(file_list):
     """List folders containing header files"""
-    return sorted(
-        set(map(lambda file: PurePath(file).parent.as_posix(), header_files(file_list)))
-    )
+    return sorted(set(map(lambda file: PurePath(
+        file).parent.as_posix(), header_files(file_list))))
 
 
 def c_source_folders(file_list):
     """List folders containing c source files"""
-    return sorted(
-        set(
-            map(
-                lambda file: PurePath(file).parent.as_posix(), c_source_files(file_list)
-            )
-        )
-    )
+    return sorted(set(map(lambda file: PurePath(
+        file).parent.as_posix(), c_source_files(file_list))))
 
 
 def includes(file_list):
@@ -216,28 +216,34 @@ def internal_includes(include_list, file_list):
         up_reference_count = include_tokens.count("..")
         for file in file_list:
             file_tokens = file.split(separator())
-            if file_tokens[-len(include_tokens) + up_reference_count :] == include_tokens[up_reference_count:]:
+            if file_tokens[-len(include_tokens) +
+                           up_reference_count:] == include_tokens[up_reference_count:]:
                 internal_include_list.append(include)
     return sorted(set(internal_include_list))
 
 
 def external_includes(include_list, internal_include_list):
     """Return external includes used in examined source files."""
-    external_include_list = list(set(include_list) - set(internal_include_list))
+    external_include_list = list(
+        set(include_list) -
+        set(internal_include_list))
     external_include_list = sorted(set(external_include_list))
     return external_include_list
 
 
 def system_includes(include_list):
     """Return system includes used in examined source files."""
-    return sorted({include for include in include_list if include in known_system_includes})
+    return sorted(
+        {include for include in include_list if include in known_system_includes})
+
 
 def up_level_references_folders(
     include_path_candidate, up_reference_count, header_tokens
 ):
     """Get folders in scope of upper level references."""
     ambiguous_paths = list()
-    subfolders = [path for path in os.scandir(include_path_candidate) if path.is_dir()]
+    subfolders = [path for path in os.scandir(
+        include_path_candidate) if path.is_dir()]
     for path in subfolders:
         path = PurePath(path).as_posix()
         path_tokens = path.split(separator())
@@ -311,7 +317,7 @@ def include_paths_for_include(source, include, headers):
         header_tokens = header_file.split(separator())
         # Test if there is existing internal header matching specific include.
         if (
-            header_tokens[-len(include_tokens) + up_reference_count :]
+            header_tokens[-len(include_tokens) + up_reference_count:]
             == include_tokens[up_reference_count:]
         ):
             # Determine path to header according to specific include without
@@ -328,8 +334,9 @@ def include_paths_for_include(source, include, headers):
                     database, ambiguous_paths, header_file
                 )
             else:
-                # in context record should be mandatory include paths even if there is system alternative
-                if not header_tokens[:-1] == source_tokens[:-1] : # and (include not in known_system_includes)
+                # in context record should be mandatory include paths even if
+                # there is system alternative
+                if not header_tokens[:-1] == source_tokens[:-1]:
                     database = record_mandatory_paths(
                         database, include_path_candidate, header_file
                     )
@@ -355,7 +362,7 @@ def includes_from_file(file):
     file_includes = sorted(file_includes)
     return file_includes
 
-#def identify_main(file):
+# def identify_main(file):
 #    """Extract includes used in source files by regex analysis."""
 #    strings = ['main()', 'int main()', 'int main(void)']
 #    file_includes = list()
@@ -426,7 +433,8 @@ def paths_report(database):
     for source in get_sources(database, root):
         for include in get_includes(database, root, source):
             for header in get_headers(database, root, source, include):
-                for path in get_include_paths(database, root, source, include, header):
+                for path in get_include_paths(
+                        database, root, source, include, header):
                     paths = assign_types(
                         paths, database, root, source, include, header, path
                     )
@@ -509,18 +517,24 @@ def record_include_types(database, internal_include_list):
     #database = defaultdict(list, database)
     root = get_root(database)
     for source in database[root]["source_files"].keys():
-        for include in database[root]["source_files"][source]["includes"].keys():
-            if "include_type" not in database[root]["source_files"][source]["includes"][include].keys():
-                database[root]["source_files"][source]["includes"][include]["include_type"] = []
+        for include in database[root]["source_files"][source]["includes"].keys(
+        ):
+            if "include_type" not in database[root]["source_files"][source]["includes"][include].keys(
+            ):
+                database[root]["source_files"][source]["includes"][include]["include_type"] = [
+                ]
             if include in known_system_includes:
                 if "system" not in database[root]["source_files"][source]["includes"][include]["include_type"]:
-                    database[root]["source_files"][source]["includes"][include]["include_type"].append("system")
+                    database[root]["source_files"][source]["includes"][include]["include_type"].append(
+                        "system")
             if include in internal_include_list:
                 if "internal" not in database[root]["source_files"][source]["includes"][include]["include_type"]:
-                    database[root]["source_files"][source]["includes"][include]["include_type"].append("internal")
+                    database[root]["source_files"][source]["includes"][include]["include_type"].append(
+                        "internal")
             else:
                 if "external" not in database[root]["source_files"][source]["includes"][include]["include_type"]:
-                    database[root]["source_files"][source]["includes"][include]["include_type"].append("external")
+                    database[root]["source_files"][source]["includes"][include]["include_type"].append(
+                        "external")
     return database
 
 
@@ -578,7 +592,8 @@ def estimate_include_paths(root):
     target_name = os.path.basename(os.path.normpath(root))
 
     # Dump database objects into yml files
-    file_name = '{0:s}_raw_{1:s}_include_statistics.yml'.format(time_now, target_name)
+    file_name = '{0:s}_raw_{1:s}_include_statistics.yml'.format(
+        time_now, target_name)
     with open(file_name, 'w') as report_file:
         yaml.dump(
             includes_with_count(sources),
@@ -587,29 +602,46 @@ def estimate_include_paths(root):
             width=1000,
         )
 
-    file_name = '{0:s}_raw_{1:s}_list_of_include_paths.yml'.format(time_now, target_name)
+    file_name = '{0:s}_raw_{1:s}_list_of_include_paths.yml'.format(
+        time_now, target_name)
     with open(file_name, 'w') as report_file:
-        yaml.dump(dict(summarized_include_paths), report_file, Dumper=NoAliasDumper, width=1000)
+        yaml.dump(
+            dict(summarized_include_paths),
+            report_file,
+            Dumper=NoAliasDumper,
+            width=1000)
 
-
-    file_name = '{0:s}_raw_{1:s}_list_of_include_path_types.yml'.format(time_now, target_name)
+    file_name = '{0:s}_raw_{1:s}_list_of_include_path_types.yml'.format(
+        time_now, target_name)
     with open(file_name, 'w') as report_file:
-        yaml.dump(dict(include_paths_by_type), report_file, Dumper=NoAliasDumper, width=1000)
+        yaml.dump(
+            dict(include_paths_by_type),
+            report_file,
+            Dumper=NoAliasDumper,
+            width=1000)
 
-
-    file_name = '{0:s}_raw_{1:s}_full_database_record.yml'.format(time_now, target_name)
+    file_name = '{0:s}_raw_{1:s}_full_database_record.yml'.format(
+        time_now, target_name)
     with open(file_name, 'w') as report_file:
-        yaml.dump(dict(database), report_file, Dumper=NoAliasDumper, width=1000)
+        yaml.dump(
+            dict(database),
+            report_file,
+            Dumper=NoAliasDumper,
+            width=1000)
 
     end_time = time.time()
 
     # Create verbose report
-    file_name = '{0:s}_raw_{1:s}_verbose_report.txt'.format(time_now, target_name)
+    file_name = '{0:s}_raw_{1:s}_verbose_report.txt'.format(
+        time_now, target_name)
     with open(file_name, 'w') as report_file:
         print("\nExecution time: ", file=report_file)
         print("------------------------", file=report_file)
         print(str(datetime.timedelta(seconds=end_time - start_time)), file=report_file)
-        print("\nExecution time: ", str(datetime.timedelta(seconds=end_time - start_time)))
+        print(
+            "\nExecution time: ", str(
+                datetime.timedelta(
+                    seconds=end_time - start_time)))
 
         if "mandatory" in include_paths_by_type.keys():
             print("\nMandatory include paths:", file=report_file)
@@ -631,7 +663,11 @@ def estimate_include_paths(root):
 
         print("\nCommon include path prefix:", file=report_file)
         print("------------------------", file=report_file)
-        print(os.path.commonprefix(list(summarized_include_paths.keys())), file=report_file)
+        print(
+            os.path.commonprefix(
+                list(
+                    summarized_include_paths.keys())),
+            file=report_file)
 
         print("\nInternal include list:", file=report_file)
         print("------------------------", file=report_file)
@@ -640,8 +676,10 @@ def estimate_include_paths(root):
         print("\nExternal include list:", file=report_file)
         print("------------------------", file=report_file)
         print_list(
-            external_includes(includes_list, internal_include_list), file=report_file
-        )
+            external_includes(
+                includes_list,
+                internal_include_list),
+            file=report_file)
 
         print("\nSystem include list:", file=report_file)
         print("------------------------", file=report_file)
@@ -662,6 +700,7 @@ def estimate_include_paths(root):
         print("\nC source folder list:", file=report_file)
         print("------------------------", file=report_file)
         print_list(c_source_folders(sources), file=report_file)
+
 
 # --------MAIN--------
 if __name__ == "__main__":
