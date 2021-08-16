@@ -155,11 +155,11 @@ def separator():
     return str(PurePath(os.sep).as_posix())
 
 
-def source_files(source_root):
+def source_files(source_folder):
     """Get list of source files from source folder."""
     sources = list()
     for source_type in source_types:
-        sources.extend(glob.glob(source_root + "/**/*" + source_type, recursive=True))
+        sources.extend(glob.glob(source_folder + "/**/*" + source_type, recursive=True))
     sources = sorted(map(lambda path: PurePath(path).as_posix(), sources))
     return sources
 
@@ -355,6 +355,21 @@ def includes_from_file(file):
     file_includes = sorted(file_includes)
     return file_includes
 
+def identify_main(file):
+    """Extract includes used in source files by regex analysis."""
+    strings = ['main()', 'int main()', 'int main(void)']
+    file_includes = list()
+    include_regex = r'#include ["<](?P<inc_path>[^">]*)'
+    if file.lower().endswith(tuple(source_types)):
+        with open(file, "r", encoding="utf-8", errors="ignore") as file_data:
+            for line in file_data:
+                match = re.search(include_regex, line)
+                if match:
+                    include = match.group("inc_path")
+                    file_includes.append(include)
+    file_includes = sorted(file_includes)
+    return file_includes
+
 
 def get_root(database):
     """Load root folder from database."""
@@ -493,7 +508,6 @@ def record_include_types(database, internal_include_list):
     """Save estimated include types into database record"""
     #database = defaultdict(list, database)
     root = get_root(database)
-    print(type(database))
     for source in database[root]["source_files"].keys():
         for include in database[root]["source_files"][source]["includes"].keys():
             if "include_type" not in database[root]["source_files"][source]["includes"][include].keys():
@@ -511,7 +525,7 @@ def record_include_types(database, internal_include_list):
 
 
 def console_print(include_paths_by_type):
-    # Print estimated include paths into console
+    """Print estimated include paths into console."""
     if "mandatory" in include_paths_by_type.keys():
         print("\nMandatory paths:")
         print("------------------------")
@@ -531,7 +545,7 @@ def console_print(include_paths_by_type):
             print(path)
 
 
-def estimate_include_paths(arguments):
+def estimate_include_paths(root):
     """Extract data and create final reports."""
     database = defaultdict(list)
 
@@ -540,11 +554,11 @@ def estimate_include_paths(arguments):
     now = datetime.datetime.now()
     time_now = now.strftime("%Y-%m-%d_%H-%M-%S")
 
-    sources = source_files(arguments.root)
+    sources = source_files(root)
     headers = header_files(sources)
     includes_list = includes(sources)
 
-    root = Path(arguments.root).as_posix()
+    root = Path(root).as_posix()
     database = record_root(database, root)
     database = record_sources(database, sources)
     database = record_includes(database)
@@ -558,10 +572,13 @@ def estimate_include_paths(arguments):
 
     #include_paths_by_include = include_path_by_include_report(database)
 
+    print("\n--- INCLUDE PATH ESTIMATION ---")
     console_print(include_paths_by_type)
 
+    target_name = os.path.basename(os.path.normpath(root))
+
     # Dump database objects into yml files
-    stream = open("%s_include_statistics.yml" % (time_now), "w")
+    stream = open("{0:s}_raw_{1:s}_include_statistics.yml".format(time_now, target_name), "w")
     yaml.dump(
         includes_with_count(sources),
         stream,
@@ -569,23 +586,25 @@ def estimate_include_paths(arguments):
         width=1000,
     )
 
-    stream = open("%s_list_of_include_paths.yml" % (time_now), "w")
+    stream = open("{0:s}_raw_{1:s}_list_of_include_paths.yml".format(time_now, target_name), "w")
     yaml.dump(dict(summarized_include_paths), stream, Dumper=NoAliasDumper, width=1000)
 
-    stream = open("%s_list_of_include_path_types.yml" % (time_now), "w")
+    stream = open("{0:s}_raw_{1:s}_list_of_include_path_types.yml".format(time_now, target_name), "w")
     yaml.dump(dict(include_paths_by_type), stream, Dumper=NoAliasDumper, width=1000)
 
-    stream = open("%s_full_database_record.yml" % (time_now), "w")
+    stream = open("{0:s}_raw_{1:s}_full_database_record.yml".format(time_now, target_name), "w")
     yaml.dump(dict(database), stream, Dumper=NoAliasDumper, width=1000)
 
     end_time = time.time()
 
     # Create verbose report
-    report_file = open("%s_verbose_report.txt" % (time_now), "w")
+    #report_file = open("%s_verbose_report.txt" % (time_now), "w")
+    report_file = open("{0:s}_raw_{1:s}_verbose_report.txt".format(time_now, target_name), "w")
 
-    print("\nExecution time:", file=report_file)
+    print("\nExecution time: ", file=report_file)
     print("------------------------", file=report_file)
     print(str(datetime.timedelta(seconds=end_time - start_time)), file=report_file)
+    print("\nExecution time: ", str(datetime.timedelta(seconds=end_time - start_time)))
 
     if "mandatory" in include_paths_by_type.keys():
         print("\nMandatory include paths:", file=report_file)
@@ -645,4 +664,5 @@ def estimate_include_paths(arguments):
 
 # --------MAIN--------
 if __name__ == "__main__":
-    estimate_include_paths(args())
+    source_root = args().root
+    estimate_include_paths(source_root)
