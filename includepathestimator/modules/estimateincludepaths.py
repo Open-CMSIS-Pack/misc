@@ -166,12 +166,12 @@ def source_files(source_folder):
 
 def header_files(file_list):
     """Filter header files only from source files list."""
-    return sorted(set([file for file in file_list if file.endswith(".h")]))
+    return sorted({file for file in file_list if file.endswith(".h")})
 
 
 def c_source_files(file_list):
     """Filter c source files only from source files list."""
-    return sorted(set([file for file in file_list if file.endswith(".c")]))
+    return sorted({file for file in file_list if file.endswith(".c")})
 
 
 def header_folders(file_list):
@@ -195,7 +195,7 @@ def c_source_folders(file_list):
 def includes(file_list):
     """Extract list of includes used in each source file and attach it in data structure."""
     return sorted(
-        set([include for file in file_list for include in includes_from_file(file)])
+        {include for file in file_list for include in includes_from_file(file)}
     )
 
 
@@ -230,7 +230,7 @@ def external_includes(include_list, internal_include_list):
 
 def system_includes(include_list):
     """Return system includes used in examined source files."""
-    return sorted(set([include for include in include_list if include in known_system_includes]))
+    return sorted({include for include in include_list if include in known_system_includes})
 
 def up_level_references_folders(
     include_path_candidate, up_reference_count, header_tokens
@@ -355,20 +355,20 @@ def includes_from_file(file):
     file_includes = sorted(file_includes)
     return file_includes
 
-def identify_main(file):
-    """Extract includes used in source files by regex analysis."""
-    strings = ['main()', 'int main()', 'int main(void)']
-    file_includes = list()
-    include_regex = r'#include ["<](?P<inc_path>[^">]*)'
-    if file.lower().endswith(tuple(source_types)):
-        with open(file, "r", encoding="utf-8", errors="ignore") as file_data:
-            for line in file_data:
-                match = re.search(include_regex, line)
-                if match:
-                    include = match.group("inc_path")
-                    file_includes.append(include)
-    file_includes = sorted(file_includes)
-    return file_includes
+#def identify_main(file):
+#    """Extract includes used in source files by regex analysis."""
+#    strings = ['main()', 'int main()', 'int main(void)']
+#    file_includes = list()
+#    #include_regex = r'#include ["<](?P<inc_path>[^">]*)'
+#    if file.lower().endswith(tuple(source_types)):
+#        with open(file, "r", encoding="utf-8", errors="ignore") as file_data:
+#            for line in file_data:
+#                match = re.search(include_regex, line)
+#                if match:
+#                    include = match.group("inc_path")
+#                    file_includes.append(include)
+#    file_includes = sorted(file_includes)
+#    return file_includes
 
 
 def get_root(database):
@@ -578,89 +578,90 @@ def estimate_include_paths(root):
     target_name = os.path.basename(os.path.normpath(root))
 
     # Dump database objects into yml files
-    stream = open("{0:s}_raw_{1:s}_include_statistics.yml".format(time_now, target_name), "w")
-    yaml.dump(
-        includes_with_count(sources),
-        stream,
-        Dumper=yamlordereddictloader.Dumper,
-        width=1000,
-    )
+    file_name = '{0:s}_raw_{1:s}_include_statistics.yml'.format(time_now, target_name)
+    with open(file_name, 'w') as report_file:
+        yaml.dump(
+            includes_with_count(sources),
+            report_file,
+            Dumper=yamlordereddictloader.Dumper,
+            width=1000,
+        )
 
-    stream = open("{0:s}_raw_{1:s}_list_of_include_paths.yml".format(time_now, target_name), "w")
-    yaml.dump(dict(summarized_include_paths), stream, Dumper=NoAliasDumper, width=1000)
+    file_name = '{0:s}_raw_{1:s}_list_of_include_paths.yml'.format(time_now, target_name)
+    with open(file_name, 'w') as report_file:
+        yaml.dump(dict(summarized_include_paths), report_file, Dumper=NoAliasDumper, width=1000)
 
-    stream = open("{0:s}_raw_{1:s}_list_of_include_path_types.yml".format(time_now, target_name), "w")
-    yaml.dump(dict(include_paths_by_type), stream, Dumper=NoAliasDumper, width=1000)
 
-    stream = open("{0:s}_raw_{1:s}_full_database_record.yml".format(time_now, target_name), "w")
-    yaml.dump(dict(database), stream, Dumper=NoAliasDumper, width=1000)
+    file_name = '{0:s}_raw_{1:s}_list_of_include_path_types.yml'.format(time_now, target_name)
+    with open(file_name, 'w') as report_file:
+        yaml.dump(dict(include_paths_by_type), report_file, Dumper=NoAliasDumper, width=1000)
+
+
+    file_name = '{0:s}_raw_{1:s}_full_database_record.yml'.format(time_now, target_name)
+    with open(file_name, 'w') as report_file:
+        yaml.dump(dict(database), report_file, Dumper=NoAliasDumper, width=1000)
 
     end_time = time.time()
 
     # Create verbose report
-    #report_file = open("%s_verbose_report.txt" % (time_now), "w")
-    report_file = open("{0:s}_raw_{1:s}_verbose_report.txt".format(time_now, target_name), "w")
-
-    print("\nExecution time: ", file=report_file)
-    print("------------------------", file=report_file)
-    print(str(datetime.timedelta(seconds=end_time - start_time)), file=report_file)
-    print("\nExecution time: ", str(datetime.timedelta(seconds=end_time - start_time)))
-
-    if "mandatory" in include_paths_by_type.keys():
-        print("\nMandatory include paths:", file=report_file)
+    file_name = '{0:s}_raw_{1:s}_verbose_report.txt'.format(time_now, target_name)
+    with open(file_name, 'w') as report_file:
+        print("\nExecution time: ", file=report_file)
         print("------------------------", file=report_file)
-        for path in include_paths_by_type["mandatory"]:
-            print(path, file=report_file)
+        print(str(datetime.timedelta(seconds=end_time - start_time)), file=report_file)
+        print("\nExecution time: ", str(datetime.timedelta(seconds=end_time - start_time)))
 
-    if "optional" in include_paths_by_type.keys():
-        print("\nOptional include paths:", file=report_file)
+        if "mandatory" in include_paths_by_type.keys():
+            print("\nMandatory include paths:", file=report_file)
+            print("------------------------", file=report_file)
+            for path in include_paths_by_type["mandatory"]:
+                print(path, file=report_file)
+
+        if "optional" in include_paths_by_type.keys():
+            print("\nOptional include paths:", file=report_file)
+            print("------------------------", file=report_file)
+            for path in include_paths_by_type["optional"]:
+                print(path, file=report_file)
+
+        if "ambiguous" in include_paths_by_type.keys():
+            print("\nAmbiguous include paths:", file=report_file)
+            print("------------------------", file=report_file)
+            for path in include_paths_by_type["ambiguous"]:
+                print(path, file=report_file)
+
+        print("\nCommon include path prefix:", file=report_file)
         print("------------------------", file=report_file)
-        for path in include_paths_by_type["optional"]:
-            print(path, file=report_file)
+        print(os.path.commonprefix(list(summarized_include_paths.keys())), file=report_file)
 
-    if "ambiguous" in include_paths_by_type.keys():
-        print("\nAmbiguous include paths:", file=report_file)
+        print("\nInternal include list:", file=report_file)
         print("------------------------", file=report_file)
-        for path in include_paths_by_type["ambiguous"]:
-            print(path, file=report_file)
+        print_list(internal_include_list, file=report_file)
 
-    print("\nCommon include path prefix:", file=report_file)
-    print("------------------------", file=report_file)
-    print(os.path.commonprefix(list(summarized_include_paths.keys())), file=report_file)
+        print("\nExternal include list:", file=report_file)
+        print("------------------------", file=report_file)
+        print_list(
+            external_includes(includes_list, internal_include_list), file=report_file
+        )
 
+        print("\nSystem include list:", file=report_file)
+        print("------------------------", file=report_file)
+        print_list(system_includes(includes_list), file=report_file)
 
-    print("\nInternal include list:", file=report_file)
-    print("------------------------", file=report_file)
-    print_list(internal_include_list, file=report_file)
+        print("\nC source file list:", file=report_file)
+        print("------------------------", file=report_file)
+        print_list(c_source_files(sources), file=report_file)
 
-    print("\nExternal include list:", file=report_file)
-    print("------------------------", file=report_file)
-    print_list(
-        external_includes(includes_list, internal_include_list), file=report_file
-    )
+        print("\nHeader file list:", file=report_file)
+        print("------------------------", file=report_file)
+        print_list(headers, file=report_file)
 
-    print("\nSystem include list:", file=report_file)
-    print("------------------------", file=report_file)
-    print_list(system_includes(includes_list), file=report_file)
+        print("\nHeader folder list:", file=report_file)
+        print("------------------------", file=report_file)
+        print_list(header_folders(sources), file=report_file)
 
-    print("\nC source file list:", file=report_file)
-    print("------------------------", file=report_file)
-    print_list(c_source_files(sources), file=report_file)
-
-    print("\nHeader file list:", file=report_file)
-    print("------------------------", file=report_file)
-    print_list(headers, file=report_file)
-
-    print("\nHeader folder list:", file=report_file)
-    print("------------------------", file=report_file)
-    print_list(header_folders(sources), file=report_file)
-
-    print("\nC source folder list:", file=report_file)
-    print("------------------------", file=report_file)
-    print_list(c_source_folders(sources), file=report_file)
-
-    report_file.close()
-
+        print("\nC source folder list:", file=report_file)
+        print("------------------------", file=report_file)
+        print_list(c_source_folders(sources), file=report_file)
 
 # --------MAIN--------
 if __name__ == "__main__":
