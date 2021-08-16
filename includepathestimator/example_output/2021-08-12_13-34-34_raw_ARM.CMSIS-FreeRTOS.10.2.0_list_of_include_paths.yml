@@ -1,0 +1,3579 @@
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/CMSIS/RTOS2/FreeRTOS/Config/ARMCA:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/CMSIS/RTOS2/FreeRTOS/Config/ARMCM:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/CMSIS/RTOS2/FreeRTOS/Config/ARMCM_TZ:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/CMSIS/RTOS2/FreeRTOS/Examples/Blinky/RTE/RTOS:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/CMSIS/RTOS2/FreeRTOS/Examples/Blinky/RTE/_Simulation:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/CMSIS/RTOS2/FreeRTOS/Examples/Blinky_CA9/RTE:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/CMSIS/RTOS2/FreeRTOS/Examples/Blinky_CA9/RTE/RTOS:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/CMSIS/RTOS2/FreeRTOS/Examples/Blinky_CA9_AC6/RTE:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/CMSIS/RTOS2/FreeRTOS/Examples/Blinky_CA9_AC6/RTE/RTOS:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/CMSIS/RTOS2/FreeRTOS/Examples/Native_Blinky/RTE/RTOS:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/CMSIS/RTOS2/FreeRTOS/Examples/Native_Blinky/RTE/_Simulation:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/CMSIS/RTOS2/FreeRTOS/Examples/TrustZone/NonSecure/RTE/Device/ARMCM33_DSP_FP_TZ
+: types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/CMSIS/RTOS2/FreeRTOS/Examples/TrustZone/NonSecure/RTE/RTOS:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/CMSIS/RTOS2/FreeRTOS/Examples/TrustZone/NonSecure/RTE/_FVP_Simulation_Model
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/CMSIS/RTOS2/FreeRTOS/Examples/TrustZone/Secure:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/CMSIS/RTOS2/FreeRTOS/Examples/TrustZone/Secure/RTE/Device/ARMCM33_DSP_FP_TZ
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/CMSIS/RTOS2/FreeRTOS/Examples/TrustZone/Secure/RTE/RTOS:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/CMSIS/RTOS2/FreeRTOS/Examples/TrustZone/Secure/RTE/_FVP_Simulation_Model
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/CMSIS/RTOS2/FreeRTOS/Include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/CMSIS/RTOS2/FreeRTOS/Include1:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Config/ARMCA:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Config/ARMCM:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM7_AT91FR40008_GCC:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM7_AT91SAM7S64_IAR:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM7_AT91SAM7S64_IAR/SrcIAR:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM7_LPC2106_GCC:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM7_LPC2129_IAR:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM7_LPC2129_Keil_RVDS:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM7_LPC2138_Rowley:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM7_LPC2368_Eclipse/RTOSDemo:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM7_LPC2368_Eclipse/RTOSDemo/LCD:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM7_LPC2368_Eclipse/RTOSDemo/webserver:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM7_LPC2368_Rowley:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM7_LPC2368_Rowley/LCD:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM7_LPC2368_Rowley/webserver:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM7_STR71x_IAR:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM7_STR71x_IAR/Library:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM7_STR71x_IAR/Library/include:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM7_STR75x_GCC:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM7_STR75x_GCC/STLibrary/inc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM7_STR75x_IAR:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM7_STR75x_IAR/STLibrary/inc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM9_AT91SAM9XE_IAR:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM9_STR91X_IAR:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM9_STR91X_IAR/Library/include:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM9_STR91X_IAR/STCode:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM9_STR91X_IAR/lwip/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM9_STR91X_IAR/lwip/include/arch:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM9_STR91X_IAR/lwip/include/lwIPWebServer:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM9_STR91X_IAR/lwip/include/lwip:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ARM9_STR91X_IAR/webserver:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/AVR32_UC3:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/AVR32_UC3/BOARDS:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/AVR32_UC3/BOARDS/EVK1100:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/AVR32_UC3/BOARDS/EVK1101:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/AVR32_UC3/DRIVERS/GPIO:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/AVR32_UC3/DRIVERS/INTC:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/AVR32_UC3/DRIVERS/PM:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/AVR32_UC3/DRIVERS/TC:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/AVR32_UC3/DRIVERS/USART:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/AVR32_UC3/SERVICES/USB/CLASS/DFU/EXAMPLES/ISP/BOOT:
+  types:
+  - ambiguous
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/AVR32_UC3/UTILS:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/AVR32_UC3/UTILS/PREPROCESSOR:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/AVR_ATMega323_IAR:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/AVR_ATMega323_WinAVR:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_IAR_and_Keil:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_IAR_and_Keil/MicroSemi_Code:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_IAR_and_Keil/MicroSemi_Code/CMSIS:
+  types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_IAR_and_Keil/MicroSemi_Code/CMSIS/startup_keil
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_IAR_and_Keil/MicroSemi_Code/drivers/I2C:
+  types:
+  - mandatory
+  - optional
+  - ambiguous
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_IAR_and_Keil/MicroSemi_Code/drivers/OLED:
+  types:
+  - ambiguous
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_IAR_and_Keil/MicroSemi_Code/drivers/mss_ace:
+  types:
+  - ambiguous
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_IAR_and_Keil/MicroSemi_Code/drivers/mss_ethernet_mac
+: types:
+  - ambiguous
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_IAR_and_Keil/MicroSemi_Code/drivers/mss_gpio:
+  types:
+  - ambiguous
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_IAR_and_Keil/MicroSemi_Code/drivers/mss_pdma:
+  types:
+  - ambiguous
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_IAR_and_Keil/MicroSemi_Code/drivers/mss_spi:
+  types:
+  - ambiguous
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_IAR_and_Keil/MicroSemi_Code/drivers/mss_timer
+: types:
+  - ambiguous
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_IAR_and_Keil/MicroSemi_Code/drivers/mss_uart:
+  types:
+  - ambiguous
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_IAR_and_Keil/MicroSemi_Code/drivers/mss_watchdog
+: types:
+  - ambiguous
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_IAR_and_Keil/MicroSemi_Code/drivers_config/mss_ace
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_IAR_and_Keil/WebServer:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_SoftConsole:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_SoftConsole/MicroSemi_Code:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_SoftConsole/MicroSemi_Code/CMSIS:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_SoftConsole/MicroSemi_Code/drivers/I2C:
+  types:
+  - mandatory
+  - ambiguous
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_SoftConsole/MicroSemi_Code/drivers/OLED:
+  types:
+  - ambiguous
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_SoftConsole/MicroSemi_Code/drivers/mss_ace:
+  types:
+  - ambiguous
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_SoftConsole/MicroSemi_Code/drivers/mss_ethernet_mac
+: types:
+  - ambiguous
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_SoftConsole/MicroSemi_Code/drivers/mss_gpio:
+  types:
+  - ambiguous
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_SoftConsole/MicroSemi_Code/drivers/mss_timer:
+  types:
+  - ambiguous
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_SoftConsole/MicroSemi_Code/drivers/mss_watchdog
+: types:
+  - ambiguous
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_SoftConsole/MicroSemi_Code/drivers_config/mss_ace
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A2F200_SoftConsole/WebServer:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53/src:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53/src/Full_Demo
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/include
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/libsrc/avbuf_v2_1/src
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/libsrc/axipmon_v6_6/src
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/libsrc/canps_v3_2/src
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/libsrc/csudma_v1_2/src
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/libsrc/dpdma_v1_0/src
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/libsrc/emacps_v3_7/src
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/libsrc/gpiops_v3_3/src
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/libsrc/iicps_v3_6/src
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/libsrc/ipipsu_v2_3/src
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/libsrc/qspipsu_v1_7/src
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/libsrc/resetps_v1_0/src
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/libsrc/rtcpsu_v1_5/src
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/libsrc/scugic_v3_9/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/libsrc/sdps_v3_4/src
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/libsrc/standalone_v6_6/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/libsrc/sysmonpsu_v2_3/src
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/libsrc/ttcps_v3_5/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/libsrc/uartps_v3_6/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/libsrc/usbpsu_v1_4/src
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/libsrc/video_common_v4_3/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/libsrc/wdtps_v3_0/src
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/RTOSDemo_A53_bsp/psu_cortexa53_0/libsrc/zdma_v1_5/src
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A53_64-bit_UltraScale_MPSoC/ZynqMP_ZCU102_hw_platform
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D2x_Xplained_IAR:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D2x_Xplained_IAR/AtmelFiles/drivers:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D2x_Xplained_IAR/AtmelFiles/drivers/cortex-a
+: types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D2x_Xplained_IAR/AtmelFiles/drivers/misc:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D2x_Xplained_IAR/AtmelFiles/drivers/peripherals
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D2x_Xplained_IAR/AtmelFiles/target/sama5d2:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D2x_Xplained_IAR/AtmelFiles/utils:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D2x_Xplained_IAR/Full_Demo:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D3x_Xplained_IAR:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D3x_Xplained_IAR/AtmelFiles/libboard_sama5d3x-ek
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D3x_Xplained_IAR/AtmelFiles/libboard_sama5d3x-ek/include
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D3x_Xplained_IAR/AtmelFiles/libchip_sama5d3x
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D3x_Xplained_IAR/AtmelFiles/libchip_sama5d3x/cp15
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D3x_Xplained_IAR/AtmelFiles/libchip_sama5d3x/include
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D3x_Xplained_IAR/AtmelFiles/usb:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D3x_Xplained_IAR/AtmelFiles/usb/include:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D3x_Xplained_IAR/Full_Demo:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D4x_EK_IAR:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D4x_EK_IAR/AtmelFiles/libboard_sama5d4x-ek:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D4x_EK_IAR/AtmelFiles/libboard_sama5d4x-ek/include
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D4x_EK_IAR/AtmelFiles/libchip_sama5d4x:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D4x_EK_IAR/AtmelFiles/libchip_sama5d4x/cp15:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D4x_EK_IAR/AtmelFiles/libchip_sama5d4x/include
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D4x_EK_IAR/AtmelFiles/libchip_sama5d4x/tz:
+  types:
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D4x_EK_IAR/AtmelFiles/usb:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D4x_EK_IAR/AtmelFiles/usb/include:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A5_SAMA5D4x_EK_IAR/Full_Demo:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Cyclone_V_SoC_DK:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Cyclone_V_SoC_DK/Altera_Code/HardwareLibrary/include
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Cyclone_V_SoC_DK/Altera_Code/HardwareLibrary/include/socal
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Cyclone_V_SoC_DK/Altera_Code/SoCSupport/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo/src:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo/src/Full_Demo:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo/src/lwIP_Demo/lwIP_Apps:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo/src/lwIP_Demo/lwIP_Apps/apps/httpserver_raw_from_lwIP_download
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo/src/lwIP_Demo/lwIP_Apps/apps/httpserver_raw_from_lwIP_download/makefsdata
+: types:
+  - ambiguous
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo/src/lwIP_Demo/lwIP_port/include
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo/src/lwIP_Demo/lwIP_port/include/arch
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo_bsp/ps7_cortexa9_0/include:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo_bsp/ps7_cortexa9_0/libsrc/canps_v3_2/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+: types:
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+: types:
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo_bsp/ps7_cortexa9_0/libsrc/emacps_v3_7/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo_bsp/ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo_bsp/ps7_cortexa9_0/libsrc/iicps_v3_6/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo_bsp/ps7_cortexa9_0/libsrc/qspips_v3_4/src
+: types:
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo_bsp/ps7_cortexa9_0/libsrc/scugic_v3_9/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo_bsp/ps7_cortexa9_0/libsrc/sdps_v3_4/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo_bsp/ps7_cortexa9_0/libsrc/standalone_v6_6/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo_bsp/ps7_cortexa9_0/libsrc/standalone_v6_6/src/profile
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo_bsp/ps7_cortexa9_0/libsrc/ttcps_v3_5/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo_bsp/ps7_cortexa9_0/libsrc/uartps_v3_6/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo_bsp/ps7_cortexa9_0/libsrc/usbps_v2_4/src
+: types:
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/RTOSDemo_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+: types:
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_A9_Zynq_ZC702/ZC702_hw_platform:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/cmsis:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/components:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/components/hx8347:
+  types:
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/drivers:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/drivers/lcd:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/ac97c:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/adc:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/aes:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/aic:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/can:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/cp15:
+  types:
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/dbgu:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/dma:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/eefc:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/efc:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/emac:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/irq:
+  types:
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/isi:
+  types:
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/lcd:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/mci:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/pio:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/pit:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/pmc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/pwmc:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/rtc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/rtt:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/shdwc:
+  types:
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/slcdc:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/slck:
+  types:
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/spi:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/ssc:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/supc:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/systick:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/tc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/tdes:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/twi:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/peripherals/usart:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/AT91Lib/utility:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/system:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_AT91SAM3U256_IAR/system/at91sam3u4:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/Common-Demo-Source/include
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/asf/common/boards:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/asf/common/services/clock
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/asf/common/services/clock/sam3s
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/asf/common/services/gpio
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/asf/common/utils:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/asf/common/utils/interrupt
+: types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/asf/sam/boards:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/asf/sam/boards/sam3s_ek2
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/asf/sam/drivers:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/asf/sam/drivers/pio:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/asf/sam/drivers/pmc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/asf/sam/drivers/usart:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/asf/sam/utils:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/asf/sam/utils/cmsis/sam3s8/include
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/asf/sam/utils/cmsis/sam3s8/source/templates
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/asf/sam/utils/header_files
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/asf/sam/utils/preprocessor
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/asf/thirdparty/CMSIS/Include
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3S-EK2_Atmel_Studio/src/config:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3X_Atmel_Studio/src:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3X_Atmel_Studio/src/Common-Demo-Source/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3X_Atmel_Studio/src/asf/common/boards:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3X_Atmel_Studio/src/asf/common/services/clock:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3X_Atmel_Studio/src/asf/common/services/clock/sam3x
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3X_Atmel_Studio/src/asf/common/services/gpio:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3X_Atmel_Studio/src/asf/common/utils:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3X_Atmel_Studio/src/asf/common/utils/interrupt:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3X_Atmel_Studio/src/asf/sam/boards:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3X_Atmel_Studio/src/asf/sam/boards/sam3x_ek:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3X_Atmel_Studio/src/asf/sam/drivers:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3X_Atmel_Studio/src/asf/sam/drivers/pio:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3X_Atmel_Studio/src/asf/sam/drivers/pmc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3X_Atmel_Studio/src/asf/sam/drivers/usart:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3X_Atmel_Studio/src/asf/sam/utils:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3X_Atmel_Studio/src/asf/sam/utils/cmsis/sam3x/include
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3X_Atmel_Studio/src/asf/sam/utils/cmsis/sam3x/source/templates
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3X_Atmel_Studio/src/asf/sam/utils/header_files:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3X_Atmel_Studio/src/asf/sam/utils/preprocessor:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3X_Atmel_Studio/src/asf/thirdparty/CMSIS/Include
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_ATSAM3X_Atmel_Studio/src/config:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_CY8C5588_PSoC_Creator_GCC/FreeRTOS_Demo.cydsn:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_CY8C5588_PSoC_Creator_Keil/FreeRTOS_Demo.cydsn:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_CY8C5588_PSoC_Creator_RVDS/FreeRTOS_Demo.cydsn:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_EFM32_Giant_Gecko_Simplicity_Studio:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_EFM32_Giant_Gecko_Simplicity_Studio/SiLabs_Source/emdrv/sleep/inc
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_EFM32_Pearl_Gecko_Simplicity_Studio:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_EFM32_Pearl_Gecko_Simplicity_Studio/SiLabs_Source/emdrv/sleep/inc
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_Kinetis_K60_Tower_IAR:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_Kinetis_K60_Tower_IAR/Freescale_Code/common:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_Kinetis_K60_Tower_IAR/Freescale_Code/cpu:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_Kinetis_K60_Tower_IAR/Freescale_Code/drivers/enet:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_Kinetis_K60_Tower_IAR/Freescale_Code/drivers/mcg:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_Kinetis_K60_Tower_IAR/Freescale_Code/drivers/uart:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_Kinetis_K60_Tower_IAR/Freescale_Code/drivers/wdog:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_Kinetis_K60_Tower_IAR/webserver:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LM3S102_GCC:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LM3S102_GCC/Demo1:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LM3S102_GCC/Demo2:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LM3S102_GCC/hw_include:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LM3S102_Rowley/Demo1:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LM3S102_Rowley/Demo2:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LM3S102_Rowley/Demo3:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LM3S102_Rowley/hw_include:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LM3S316_IAR:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LM3S316_IAR/hw_include:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LM3S811_GCC:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LM3S811_GCC/hw_include:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LM3S811_IAR:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LM3S811_IAR/LuminaryCode:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LM3S811_KEIL:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LM3S811_KEIL/LuminaryCode:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LM3S811_KEIL/LuminaryCode/src:
+  types:
+  - mandatory
+  - ambiguous
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LM3Sxxxx_IAR_Keil:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LM3Sxxxx_IAR_Keil/webserver:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LM3Sxxxx_Rowley:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LM3Sxxxx_Rowley/webserver:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LPC1768_GCC_RedSuite/src:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LPC1768_GCC_RedSuite/src/LPCUSB:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LPC1768_GCC_RedSuite/src/webserver:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LPC1768_GCC_Rowley:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LPC1768_GCC_Rowley/LPCUSB:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LPC1768_GCC_Rowley/webserver:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LPC1768_IAR:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LPC1768_IAR/LPCUSB:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_LPC1768_IAR/webserver:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0+_Atmel_SAMD20_XPlained/RTOSDemo/src:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0+_Atmel_SAMD20_XPlained/RTOSDemo/src/ASF/common/boards
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0+_Atmel_SAMD20_XPlained/RTOSDemo/src/ASF/common/services/serial
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0+_Atmel_SAMD20_XPlained/RTOSDemo/src/ASF/common/utils
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0+_Atmel_SAMD20_XPlained/RTOSDemo/src/ASF/common/utils/interrupt
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0+_Atmel_SAMD20_XPlained/RTOSDemo/src/ASF/sam0/drivers/port
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0+_Atmel_SAMD20_XPlained/RTOSDemo/src/ASF/sam0/drivers/sercom
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0+_Atmel_SAMD20_XPlained/RTOSDemo/src/ASF/sam0/drivers/sercom/usart
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0+_Atmel_SAMD20_XPlained/RTOSDemo/src/ASF/sam0/drivers/system
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0+_Atmel_SAMD20_XPlained/RTOSDemo/src/ASF/sam0/drivers/system/clock
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0+_Atmel_SAMD20_XPlained/RTOSDemo/src/ASF/sam0/drivers/system/interrupt
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0+_Atmel_SAMD20_XPlained/RTOSDemo/src/ASF/sam0/drivers/system/pinmux
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0+_Atmel_SAMD20_XPlained/RTOSDemo/src/ASF/sam0/utils
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0+_Atmel_SAMD20_XPlained/RTOSDemo/src/ASF/sam0/utils/cmsis/samd20/include
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0+_Atmel_SAMD20_XPlained/RTOSDemo/src/ASF/sam0/utils/cmsis/samd20/source
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0+_Atmel_SAMD20_XPlained/RTOSDemo/src/ASF/sam0/utils/header_files
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0+_Atmel_SAMD20_XPlained/RTOSDemo/src/ASF/sam0/utils/preprocessor
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0+_Atmel_SAMD20_XPlained/RTOSDemo/src/ASF/thirdparty/CMSIS/Include
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0+_Atmel_SAMD20_XPlained/RTOSDemo/src/config:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0_Infineon_XMC1000_IAR_Keil_GCC:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0_Infineon_XMC1000_IAR_Keil_GCC/Atollic_Specific:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0_Infineon_XMC1000_IAR_Keil_GCC/CMSIS:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0_Infineon_XMC1000_IAR_Keil_GCC/IAR_Specific:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0_Infineon_XMC1000_IAR_Keil_GCC/Keil_Specific:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0_LPC1114_LPCXpresso/CMSISv2p00_LPC11xx/inc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0_LPC1114_LPCXpresso/RTOSDemo/Source:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0_STM32F0518_IAR:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0_STM32F0518_IAR/Eval-Board:
+  types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0_STM32F0518_IAR/Libraries/CMSIS/Device/ST/STM32F0xx/Include
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0_STM32F0518_IAR/Libraries/CMSIS/Include:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M0_STM32F0518_IAR/Libraries/STM32F0xx_StdPeriph_Driver/inc
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_CEC1302_Keil_GCC:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_CEC1302_Keil_GCC/CMSIS:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_CEC1302_Keil_GCC/main_full:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_CEC1302_Keil_GCC/peripheral_library:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_CEC1302_Keil_GCC/peripheral_library/basic_timer:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_CEC1302_Keil_GCC/peripheral_library/htimer:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_CEC1302_Keil_GCC/peripheral_library/interrupt:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_CEC1302_Keil_GCC/peripheral_library/pcr:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_CEC1302_MikroC:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_CEC1302_MikroC/main_full:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_CEC_MEC_17xx_51xx_Keil_GCC:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_CEC_MEC_17xx_51xx_Keil_GCC/CMSIS:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_CEC_MEC_17xx_51xx_Keil_GCC/peripheral_library:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_CEC_MEC_17xx_51xx_Keil_GCC/peripheral_library/basic_timer
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_CEC_MEC_17xx_51xx_Keil_GCC/peripheral_library/interrupt
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_CEC_MEC_17xx_51xx_Keil_GCC/peripheral_library/pcr
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_Infineon_XMC4000_GCC_Dave:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_Infineon_XMC4000_GCC_Dave/System:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_Infineon_XMC4000_IAR:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_Infineon_XMC4000_IAR/system:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_Infineon_XMC4000_Keil:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_Infineon_XMC4000_Tasking:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_Infineon_XMC4000_Tasking/system:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_Infineon_XMC4500_GCC_Atollic/CMSIS/Include:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_Infineon_XMC4500_GCC_Atollic/CMSIS/Infineon/XMC4500_series/Include
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_Infineon_XMC4500_GCC_Atollic/src:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_M0_LPC43xx_Keil/M4:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_M0_LPC43xx_Keil/platform:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_M0_LPC43xx_Keil/platform/M4_PeripheralLibraryFiles
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_M0_LPC43xx_Keil/system:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil/Full_Demo:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil/driverlib:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil/driverlib/inc:
+  types:
+  - ambiguous
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_MSP432_LaunchPad_IAR_CCS_Keil/driverlib/inc/CMSIS
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_STM32F407ZG-SK:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_STM32F407ZG-SK/Libraries/CMSIS/Device/ST/STM32F4xx/Include
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_STM32F407ZG-SK/Libraries/STM32F4xx_StdPeriph_Driver/inc
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4F_STM32F407ZG-SK/board:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4L_Atmel_Studio/src:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4L_Atmel_Studio/src/asf/common/boards:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4L_Atmel_Studio/src/asf/common/services/clock
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4L_Atmel_Studio/src/asf/common/services/clock/sam4l
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4L_Atmel_Studio/src/asf/common/services/ioport
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4L_Atmel_Studio/src/asf/common/services/sleepmgr
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4L_Atmel_Studio/src/asf/common/services/sleepmgr/sam4l
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4L_Atmel_Studio/src/asf/common/utils:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4L_Atmel_Studio/src/asf/common/utils/interrupt
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4L_Atmel_Studio/src/asf/sam/boards/sam4l_ek:
+  types:
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4L_Atmel_Studio/src/asf/sam/drivers/ast:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4L_Atmel_Studio/src/asf/sam/drivers/bpm:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4L_Atmel_Studio/src/asf/sam/drivers/eic:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4L_Atmel_Studio/src/asf/sam/drivers/flashcalw
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4L_Atmel_Studio/src/asf/sam/utils:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4L_Atmel_Studio/src/asf/sam/utils/cmsis/sam4l/include
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4L_Atmel_Studio/src/asf/sam/utils/cmsis/sam4l/source/templates
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4L_Atmel_Studio/src/asf/sam/utils/header_files
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4L_Atmel_Studio/src/asf/sam/utils/preprocessor
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4L_Atmel_Studio/src/asf/thirdparty/CMSIS/Include
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4L_Atmel_Studio/src/config:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4S_Atmel_Studio/src:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4S_Atmel_Studio/src/Common-Demo-Source/include
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4S_Atmel_Studio/src/asf/common/boards:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4S_Atmel_Studio/src/asf/common/services/clock
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4S_Atmel_Studio/src/asf/common/services/clock/sam4s
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4S_Atmel_Studio/src/asf/common/services/gpio
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4S_Atmel_Studio/src/asf/common/utils:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4S_Atmel_Studio/src/asf/common/utils/interrupt
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4S_Atmel_Studio/src/asf/sam/boards:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4S_Atmel_Studio/src/asf/sam/drivers:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4S_Atmel_Studio/src/asf/sam/drivers/pio:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4S_Atmel_Studio/src/asf/sam/drivers/pmc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4S_Atmel_Studio/src/asf/sam/drivers/tc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4S_Atmel_Studio/src/asf/sam/drivers/usart:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4S_Atmel_Studio/src/asf/sam/utils:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4S_Atmel_Studio/src/asf/sam/utils/cmsis/sam4s/include
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4S_Atmel_Studio/src/asf/sam/utils/cmsis/sam4s/source/templates
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4S_Atmel_Studio/src/asf/sam/utils/header_files
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4S_Atmel_Studio/src/asf/sam/utils/preprocessor
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4S_Atmel_Studio/src/asf/thirdparty/CMSIS/Include
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_ATSAM4S_Atmel_Studio/src/config:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_SimpleLink_CC3220SF_CCS:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_SimpleLink_CC3220SF_CCS/ti/boards/CC3220SF_LAUNCHXL
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_SimpleLink_CC3220SF_CCS/ti/devices/cc32xx:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_SimpleLink_CC3220SF_CCS/ti/devices/cc32xx/driverlib
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_SimpleLink_CC3220SF_CCS/ti/devices/cc32xx/inc:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M4_SimpleLink_CC3220SF_CCS/ti/drivers:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/common/boards
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/common/services/clock
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/common/services/clock/same70
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/common/services/gpio
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/common/services/ioport
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/common/services/serial
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/common/utils:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/common/utils/interrupt
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/common/utils/stdio/stdio_serial
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/sam/boards/same70_xplained
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/sam/drivers:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/sam/drivers/matrix
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/sam/drivers/mpu
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/sam/drivers/pio
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/sam/drivers/pmc
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/sam/drivers/tc
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/sam/drivers/uart
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/sam/drivers/usart
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/sam/utils:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/sam/utils/cmsis/same70/include
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/sam/utils/cmsis/same70/include/component
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/sam/utils/cmsis/same70/include/instance
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/sam/utils/cmsis/same70/include/pio
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/sam/utils/cmsis/same70/source/templates
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/sam/utils/fpu
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/sam/utils/header_files
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/sam/utils/preprocessor
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/ASF/thirdparty/CMSIS/Include
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/Full_Demo:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAME70_Xplained_AtmelStudio/src/config:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAMV71_Xplained_AtmelStudio:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAMV71_Xplained_AtmelStudio/Full_Demo:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAMV71_Xplained_AtmelStudio/libboard_samv7-ek:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAMV71_Xplained_AtmelStudio/libboard_samv7-ek/include
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAMV71_Xplained_AtmelStudio/libchip_samv7:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAMV71_Xplained_AtmelStudio/libchip_samv7/include
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAMV71_Xplained_AtmelStudio/libchip_samv7/include/cmsis/CMSIS/Include
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAMV71_Xplained_AtmelStudio/libchip_samv7/include/samv7
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAMV71_Xplained_IAR_Keil:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAMV71_Xplained_IAR_Keil/Full_Demo:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAMV71_Xplained_IAR_Keil/RTE:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAMV71_Xplained_IAR_Keil/libboard_samv7-ek:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAMV71_Xplained_IAR_Keil/libboard_samv7-ek/include
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAMV71_Xplained_IAR_Keil/libchip_samv7:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAMV71_Xplained_IAR_Keil/libchip_samv7/include:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAMV71_Xplained_IAR_Keil/libchip_samv7/include/cmsis/CMSIS/Include
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_SAMV71_Xplained_IAR_Keil/libchip_samv7/include/samv7
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_STM32F7_STM32756G-EVAL_IAR_Keil:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_STM32F7_STM32756G-EVAL_IAR_Keil/CMSIS/Device/ST/STM32F7xx/Include
+: types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_STM32F7_STM32756G-EVAL_IAR_Keil/CMSIS/Include:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_STM32F7_STM32756G-EVAL_IAR_Keil/Full_Demo:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_STM32F7_STM32756G-EVAL_IAR_Keil/ST_Library/include
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_STM32F7_STM32756G-EVAL_IAR_Keil/System_IAR:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_M7_STM32F7_STM32756G-EVAL_IAR_Keil/System_Keil:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_MB9A310_IAR_Keil:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_MB9A310_IAR_Keil/Fujitu_source:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_MB9B500_IAR_Keil:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_MB9B500_IAR_Keil/Fujitu_source:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_MPU_CEC_MEC_17xx_51xx_Keil_GCC:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_MPU_CEC_MEC_17xx_51xx_Keil_GCC/CMSIS:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_MPU_CEC_MEC_17xx_51xx_Keil_GCC/peripheral_library:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_MPU_CEC_MEC_17xx_51xx_Keil_GCC/peripheral_library/basic_timer
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_MPU_CEC_MEC_17xx_51xx_Keil_GCC/peripheral_library/interrupt
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_MPU_CEC_MEC_17xx_51xx_Keil_GCC/peripheral_library/pcr
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_MPU_M33F_Simulator_Keil_GCC/Config:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_MPU_M33F_Simulator_Keil_GCC/NonSecure/RTE/Device/ARMCM33_DSP_FP_TZ
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_MPU_M33F_Simulator_Keil_GCC/Secure/RTE/Device/ARMCM33_DSP_FP_TZ
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_MPU_Simulator_Keil_GCC:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_MPU_Static_Simulator_Keil_GCC:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R4F_RZ_T_GCC_IAR/System/GCC/inc:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R4F_RZ_T_GCC_IAR/System/IAR/inc:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R4F_RZ_T_GCC_IAR/src:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R4F_RZ_T_GCC_IAR/src/Full_Demo:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R4F_RZ_T_GCC_IAR/src/cg_src:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R4_RM48_TMS570_CCS5:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R4_RM48_TMS570_CCS5/Library:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R4_RM48_TMS570_CCS5/startup:
+  types:
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5/src:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5/src/Full_Demo:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/include
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/libsrc/avbuf_v2_1/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/libsrc/axipmon_v6_6/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/libsrc/canps_v3_2/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/libsrc/csudma_v1_2/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/libsrc/dpdma_v1_0/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/libsrc/emacps_v3_7/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/libsrc/gpiops_v3_3/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/libsrc/iicps_v3_6/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/libsrc/ipipsu_v2_3/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/libsrc/qspipsu_v1_7/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/libsrc/resetps_v1_0/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/libsrc/rtcpsu_v1_5/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/libsrc/scugic_v3_9/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/libsrc/sdps_v3_4/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/libsrc/standalone_v6_6/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/libsrc/sysmonpsu_v2_3/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/libsrc/ttcps_v3_5/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/libsrc/uartps_v3_6/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/libsrc/usbpsu_v1_4/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/libsrc/video_common_v4_3/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/libsrc/wdtps_v3_0/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/RTOSDemo_R5_bsp/psu_cortexr5_0/libsrc/zdma_v1_5/src
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_R5_UltraScale_MPSoC/ZynqMP_ZCU102_hw_platform:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32F100_Atollic/Libraries/CMSIS/CM3/CoreSupport:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32F100_Atollic/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32F100_Atollic/Libraries/STM32F10x_StdPeriph_Driver/inc
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32F100_Atollic/Simple_Demo_Source:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32F100_Atollic/Utilities/STM32_EVAL/STM32_Discovery
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32F103_GCC_Rowley:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32F103_GCC_Rowley/Drivers:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32F103_GCC_Rowley/ST Library/inc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32F103_IAR:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32F103_IAR/STM32F10xFWLib/inc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32F103_Keil:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32F103_Keil/STM32F10xFWLib/inc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32F103_Primer_GCC:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32F103_Primer_GCC/ST_Code:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32F107_GCC_Rowley:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32F107_GCC_Rowley/LCD:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32F107_GCC_Rowley/webserver:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32L152_Discovery_IAR/ST_Code/Libraries/CMSIS/Device/ST/STM32L1xx/Include
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32L152_Discovery_IAR/ST_Code/Libraries/CMSIS/Include
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32L152_Discovery_IAR/ST_Code/Libraries/STM32L1xx_StdPeriph_Driver/inc
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32L152_Discovery_IAR/ST_Code/STM32L-DISCOVERY:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32L152_Discovery_IAR/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32L152_IAR:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32L152_IAR/system_and_ST_code:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32L152_IAR/system_and_ST_code/CMSIS/CM3/DeviceSupport/ST/STM32L1xx
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32L152_IAR/system_and_ST_code/Common:
+  types:
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32L152_IAR/system_and_ST_code/STM32L152_EVAL:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTEX_STM32L152_IAR/system_and_ST_code/STM32L1xx_StdPeriph_Driver/inc
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/CORTUS_APS3_GCC/Demo:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ColdFire_MCF51CN128_CodeWarrior/Sources:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ColdFire_MCF51CN128_CodeWarrior/Sources/httpd:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ColdFire_MCF52221_CodeWarrior/headers:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ColdFire_MCF52221_CodeWarrior/sources:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ColdFire_MCF52233_Eclipse/RTOSDemo:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ColdFire_MCF52233_Eclipse/RTOSDemo/MCF5223x:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ColdFire_MCF52233_Eclipse/RTOSDemo/webserver:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ColdFire_MCF52259_CodeWarrior:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ColdFire_MCF52259_CodeWarrior/Freescale_Headers:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/ColdFire_MCF52259_CodeWarrior/cpu:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ARMv8M/mpu_demo:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ARMv8M/tz_demo:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/boards/at91sam9xe-ek:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/ac97c:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/aes:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/aic:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/can:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/dbgu:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/eefc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/efc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/emac:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/lcd:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/mci:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/pio:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/pit:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/pmc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/pwmc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/rtc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/rtt:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/slcdc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/spi:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/ssc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/supc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/tc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/tdes:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/twi:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/peripherals/usart:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/Atmel/at91lib/utility:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/LuminaryMicro:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/LuminaryMicro/IAR:
+  types:
+  - ambiguous
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/LuminaryMicro/Keil:
+  types:
+  - ambiguous
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/LuminaryMicro/Rowley:
+  types:
+  - ambiguous
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/LuminaryMicro/arm-none-eabi-gcc:
+  types:
+  - ambiguous
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/drivers/ST/STM32F10xFWLib/inc:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/FreeRTOS-uIP:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/FreeTCPIP:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/FreeTCPIP/apps/httpd:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/FreeTCPIP/net:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/FreeTCPIP/sys:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwIP/include:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwIP/include/ipv4:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwIP/include/lwip:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwIP/netif/ppp:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwIP_130/contrib/port/FreeRTOS/ColdFire:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwIP_130/contrib/port/FreeRTOS/ColdFire/arch
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwIP_130/contrib/port/FreeRTOS/STR91x:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwIP_130/contrib/port/FreeRTOS/STR91x/arch:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwIP_130/src/include:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwIP_130/src/include/ipv4:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwIP_130/src/include/ipv6:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwIP_130/src/include/lwip:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwIP_130/src/netif/ppp:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwIP_132/src/include:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwIP_132/src/include/ipv4:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwIP_132/src/include/ipv6:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwIP_132/src/include/lwip:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwIP_132/src/netif/ppp:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwip-1.4.0/ports/MicroBlaze-Ethernet-Lite/include
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwip-1.4.0/ports/MicroBlaze-Ethernet-Lite/include/arch
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwip-1.4.0/ports/win32:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwip-1.4.0/ports/win32/WinPCap:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwip-1.4.0/ports/win32/WinPCap/pcap:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwip-1.4.0/ports/win32/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwip-1.4.0/ports/win32/include/arch:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwip-1.4.0/src/include:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwip-1.4.0/src/include/ipv4:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwip-1.4.0/src/include/ipv6:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwip-1.4.0/src/include/lwip:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/lwip-1.4.0/src/netif/ppp:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/uIP/uip-1.0/apps/webserver:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/ethernet/uIP/uip-1.0/uip:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Common/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Cygnal:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Flshlite:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/H8S/RTOSDemo:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/HCS12_CodeWarrior_banked:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/HCS12_CodeWarrior_small:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/HCS12_GCC_banked:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/HCS12_GCC_banked/asm-m68hcs12:
+  types:
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/HCS12_GCC_banked/asm-m68hcs12/arch-dragon12:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/HCS12_GCC_banked/sys:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/IA32_flat_GCC_Galileo_Gen_2:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/IA32_flat_GCC_Galileo_Gen_2/Full_Demo:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/IA32_flat_GCC_Galileo_Gen_2/Support_Files:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MB91460_Softune/SRC:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MB91460_Softune/SRC/utility:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MB91460_Softune/SRC/watchdog:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MB96340_Softune/FreeRTOS_96348hs_SK16FX100PMC/Src:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MB96340_Softune/FreeRTOS_96348hs_SK16FX100PMC/Src/utility:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MB96340_Softune/FreeRTOS_96348hs_SK16FX100PMC/Src/watchdog:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MB96350_Softune_Dice_Kit:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MCF5235_GCC:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MCF5235_GCC/include/arch:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MSP430X_MSP430F5438_CCS/Demo_Source:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MSP430X_MSP430F5438_CCS/Demo_Source/F5XX_6XX_Core_Lib:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MSP430X_MSP430F5438_CCS/Demo_Source/MSP-EXP430F5438_HAL:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MSP430X_MSP430F5438_IAR:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MSP430X_MSP430F5438_IAR/F5XX_6XX_Core_Lib:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MSP430X_MSP430F5438_IAR/MSP-EXP430F5438_HAL:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MSP430X_MSP430FR5969_LaunchPad_IAR_CCS:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MSP430X_MSP430FR5969_LaunchPad_IAR_CCS/driverlib/MSP430FR5xx_6xx
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MSP430X_MSP430FR5969_LaunchPad_IAR_CCS/driverlib/MSP430FR5xx_6xx/deprecated/CCS
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MSP430X_MSP430FR5969_LaunchPad_IAR_CCS/driverlib/MSP430FR5xx_6xx/deprecated/IAR
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MSP430X_MSP430FR5969_LaunchPad_IAR_CCS/driverlib/MSP430FR5xx_6xx/inc
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MicroBlaze_Kintex7_EthernetLite/BSP/microblaze_0/include:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MicroBlaze_Kintex7_EthernetLite/BSP/microblaze_0/libsrc/bram_v4_1/src
+: types:
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MicroBlaze_Kintex7_EthernetLite/BSP/microblaze_0/libsrc/cpu_v2_4/src
+: types:
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MicroBlaze_Kintex7_EthernetLite/BSP/microblaze_0/libsrc/emaclite_v4_2/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MicroBlaze_Kintex7_EthernetLite/BSP/microblaze_0/libsrc/gpio_v4_1/src
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MicroBlaze_Kintex7_EthernetLite/BSP/microblaze_0/libsrc/intc_v3_5/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MicroBlaze_Kintex7_EthernetLite/BSP/microblaze_0/libsrc/standalone_v5_4/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MicroBlaze_Kintex7_EthernetLite/BSP/microblaze_0/libsrc/standalone_v5_4/src/profile
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MicroBlaze_Kintex7_EthernetLite/BSP/microblaze_0/libsrc/tmrctr_v4_1/src
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MicroBlaze_Kintex7_EthernetLite/BSP/microblaze_0/libsrc/uartlite_v3_2/src
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MicroBlaze_Kintex7_EthernetLite/RTOSDemo/src:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MicroBlaze_Kintex7_EthernetLite/RTOSDemo/src/lwIP_Demo/lwIP_Apps
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MicroBlaze_Kintex7_EthernetLite/RTOSDemo/src/lwIP_Demo/lwIP_Apps/apps/httpserver_raw_from_lwIP_download
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MicroBlaze_Kintex7_EthernetLite/RTOSDemo/src/lwIP_Demo/lwIP_Apps/apps/httpserver_raw_from_lwIP_download/makefsdata
+: types:
+  - ambiguous
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MicroBlaze_Kintex7_EthernetLite/RTOSDemo/src/lwIP_Demo/lwIP_port/include
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/MicroBlaze_Kintex7_EthernetLite/RTOSDemo/src/lwIP_Demo/lwIP_port/include/arch
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/NEC_78K0R_IAR:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/NEC_V850ES_IAR:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/NiosII_CycloneIII_DBC3C40_GCC/RTOSDemo:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/PIC18_MPLAB:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/PIC18_WizC/Demo1:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/PIC18_WizC/Demo2:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/PIC18_WizC/Demo3:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/PIC18_WizC/Demo4:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/PIC18_WizC/Demo5:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/PIC18_WizC/Demo6:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/PIC18_WizC/Demo7:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/PIC24_MPLAB:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/PIC32MEC14xx_MPLAB/src:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/PIC32MEC14xx_MPLAB/src/Full_Demo:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/PIC32MEC14xx_MPLAB/src/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/PIC32MEC14xx_MPLAB/src/include/MEC14xx:
+  types:
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/PIC32MX_MPLAB:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/PIC32MZ_MPLAB:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/PPC440_DP_FPU_Xilinx_Virtex5_GCC/RTOSDemo:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/PPC440_DP_FPU_Xilinx_Virtex5_GCC/RTOSDemo/flop:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/PPC440_SP_FPU_Xilinx_Virtex5_GCC/RTOSDemo:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/PPC440_SP_FPU_Xilinx_Virtex5_GCC/RTOSDemo/flop:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/PPC440_Xilinx_Virtex5_GCC/RTOSDemo:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/PPC440_Xilinx_Virtex5_GCC/RTOSDemo/flop:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RISC-V-Qemu-sifive_e-FreedomStudio:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RISC-V-Qemu-sifive_e-FreedomStudio/freedom-e-sdk/drivers:
+  types:
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RISC-V-Qemu-sifive_e-FreedomStudio/freedom-e-sdk/env:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RISC-V-Qemu-sifive_e-FreedomStudio/freedom-e-sdk/env/freedom-e300-hifive1
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RISC-V-Qemu-sifive_e-FreedomStudio/freedom-e-sdk/include:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RISC-V-Qemu-sifive_e-FreedomStudio/freedom-e-sdk/include/sifive/devices
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RISC-V-Qemu-sifive_e-FreedomStudio/freedom-e-sdk/libwrap/sys
+: types:
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RISC-V_RV32M1_Vega_GCC_Eclipse/common:
+  types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RISC-V_RV32M1_Vega_GCC_Eclipse/common/rv32m1_sdk_riscv/RISCV
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RISC-V_RV32M1_Vega_GCC_Eclipse/common/rv32m1_sdk_riscv/board
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RISC-V_RV32M1_Vega_GCC_Eclipse/common/rv32m1_sdk_riscv/devices/RV32M1
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RISC-V_RV32M1_Vega_GCC_Eclipse/common/rv32m1_sdk_riscv/devices/RV32M1/drivers
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RISC-V_RV32M1_Vega_GCC_Eclipse/common/rv32m1_sdk_riscv/devices/RV32M1/utilities
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RISC-V_RV32M1_Vega_GCC_Eclipse/projects/RTOSDemo_ri5cy:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RISC-V_Renode_Emulator_SoftConsole:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RISC-V_Renode_Emulator_SoftConsole/Microsemi_Code/drivers/Core16550
+: types:
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RISC-V_Renode_Emulator_SoftConsole/Microsemi_Code/drivers/CoreGPIO
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RISC-V_Renode_Emulator_SoftConsole/Microsemi_Code/drivers/CoreI2C
+: types:
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RISC-V_Renode_Emulator_SoftConsole/Microsemi_Code/drivers/CoreTimer
+: types:
+  - optional
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RISC-V_Renode_Emulator_SoftConsole/Microsemi_Code/drivers/CoreUARTapb
+: types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RISC-V_Renode_Emulator_SoftConsole/Microsemi_Code/hal:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RISC-V_Renode_Emulator_SoftConsole/Microsemi_Code/riscv_hal
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RL78_RL78G13_Promo_Board_IAR:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RL78_multiple_IAR:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100-RSK_GCC_e2studio/RTOSDemo:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100-RSK_GCC_e2studio/RTOSDemo/Renesas_Files/r_bsp:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100-RSK_GCC_e2studio/RTOSDemo/Renesas_Files/r_bsp/board/rskrx111
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100-RSK_GCC_e2studio/RTOSDemo/Renesas_Files/r_bsp/mcu/rx111
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100-RSK_GCC_e2studio/RTOSDemo/Renesas_Files/r_switches:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100-RSK_IAR:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100-RSK_IAR/Renesas_Files/r_bsp:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100-RSK_IAR/Renesas_Files/r_bsp/board/rskrx111:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100-RSK_IAR/Renesas_Files/r_bsp/mcu/rx111:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100-RSK_IAR/Renesas_Files/r_switches:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100-RSK_Renesas_e2studio/RTOSDemo:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100-RSK_Renesas_e2studio/RTOSDemo/Renesas_Files/r_bsp:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100-RSK_Renesas_e2studio/RTOSDemo/Renesas_Files/r_bsp/board/rskrx111
+: types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100-RSK_Renesas_e2studio/RTOSDemo/Renesas_Files/r_bsp/mcu/rx111
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100-RSK_Renesas_e2studio/RTOSDemo/Renesas_Files/r_switches
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100_RX113-RSK_GCC_e2studio_IAR/src:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100_RX113-RSK_GCC_e2studio_IAR/src/Blinky_Demo:
+  types:
+  - ambiguous
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100_RX113-RSK_GCC_e2studio_IAR/src/Full_Demo:
+  types:
+  - mandatory
+  - optional
+  - ambiguous
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100_RX113-RSK_GCC_e2studio_IAR/src/Renesas_Code:
+  types:
+  - mandatory
+  - optional
+  - ambiguous
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100_RX113-RSK_GCC_e2studio_IAR/src/cg_src:
+  types:
+  - mandatory
+  - optional
+  - ambiguous
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100_RX113-RSK_Renesas_e2studio/src:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100_RX113-RSK_Renesas_e2studio/src/Blinky_Demo:
+  types:
+  - ambiguous
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100_RX113-RSK_Renesas_e2studio/src/Full_Demo:
+  types:
+  - mandatory
+  - ambiguous
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX100_RX113-RSK_Renesas_e2studio/src/cg_src:
+  types:
+  - mandatory
+  - ambiguous
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX200_RX210-RSK_Renesas/RTOSDemo:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX200_RX210-RSK_Renesas/RTOSDemo/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX200_RX231-RSK_GCC_e2studio_IAR/src:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX200_RX231-RSK_GCC_e2studio_IAR/src/Blinky_Demo:
+  types:
+  - ambiguous
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX200_RX231-RSK_GCC_e2studio_IAR/src/Full_Demo:
+  types:
+  - mandatory
+  - ambiguous
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX200_RX231-RSK_GCC_e2studio_IAR/src/IAR_Support:
+  types:
+  - ambiguous
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX200_RX231-RSK_GCC_e2studio_IAR/src/Renesas_Code:
+  types:
+  - mandatory
+  - ambiguous
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX200_RX231-RSK_GCC_e2studio_IAR/src/cg_src:
+  types:
+  - mandatory
+  - ambiguous
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX200_RX231-RSK_Renesas_e2studio/src:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX200_RX231-RSK_Renesas_e2studio/src/Blinky_Demo:
+  types:
+  - ambiguous
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX200_RX231-RSK_Renesas_e2studio/src/Full_Demo:
+  types:
+  - mandatory
+  - ambiguous
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX200_RX231-RSK_Renesas_e2studio/src/Renesas_Code:
+  types:
+  - ambiguous
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX200_RX231-RSK_Renesas_e2studio/src/cg_src:
+  types:
+  - mandatory
+  - ambiguous
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX62N-RDK_GNURX/RTOSDemo:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX62N-RDK_GNURX/RTOSDemo/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX62N-RDK_GNURX/RTOSDemo/webserver:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX62N-RDK_IAR:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX62N-RDK_IAR/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX62N-RDK_IAR/webserver:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX62N-RDK_Renesas/RTOSDemo:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX62N-RDK_Renesas/RTOSDemo/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX62N-RDK_Renesas/RTOSDemo/webserver:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX62N-RSK_GNURX/RTOSDemo:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX62N-RSK_GNURX/RTOSDemo/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX62N-RSK_GNURX/RTOSDemo/webserver:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX62N-RSK_IAR:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX62N-RSK_IAR/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX62N-RSK_IAR/webserver:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX62N-RSK_Renesas/RTOSDemo:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX62N-RSK_Renesas/RTOSDemo/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX62N-RSK_Renesas/RTOSDemo/webserver:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX630-RSK_Renesas/RTOSDemo:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX630-RSK_Renesas/RTOSDemo/Renesas-Files:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX630-RSK_Renesas/RTOSDemo/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX63N-RDK_Renesas/RTOSDemo:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX63N-RDK_Renesas/RTOSDemo/Renesas-Files:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX63N-RDK_Renesas/RTOSDemo/Renesas-Files/board/rdkrx63n
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX63N-RDK_Renesas/RTOSDemo/Renesas-Files/mcu/rx63n:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX63N-RDK_Renesas/RTOSDemo/webserver:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX64M_RSK_GCC_e2studio/src:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX64M_RSK_GCC_e2studio/src/RenesasCode:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX64M_RSK_Renesas_e2studio/Source:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX64M_RSK_Renesas_e2studio/Source/Renesas_Code:
+  types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX600_RX64M_RSK_Renesas_e2studio/Source/Renesas_Code/cg_src
+: types:
+  - mandatory
+  - ambiguous
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX700_RX71M_RSK_GCC_e2studio_IAR/src:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX700_RX71M_RSK_GCC_e2studio_IAR/src/Blinky_Demo:
+  types:
+  - ambiguous
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX700_RX71M_RSK_GCC_e2studio_IAR/src/Full_Demo:
+  types:
+  - mandatory
+  - ambiguous
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX700_RX71M_RSK_GCC_e2studio_IAR/src/Renesas_Source:
+  types:
+  - mandatory
+  - ambiguous
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX700_RX71M_RSK_GCC_e2studio_IAR/src/cg_src:
+  types:
+  - mandatory
+  - ambiguous
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX700_RX71M_RSK_Renesas_e2studio/src:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX700_RX71M_RSK_Renesas_e2studio/src/Blinky_Demo:
+  types:
+  - ambiguous
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX700_RX71M_RSK_Renesas_e2studio/src/Full_Demo:
+  types:
+  - mandatory
+  - ambiguous
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/RX700_RX71M_RSK_Renesas_e2studio/src/cg_src:
+  types:
+  - mandatory
+  - ambiguous
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/SuperH_SH7216_Renesas/RTOSDemo:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/SuperH_SH7216_Renesas/RTOSDemo/ParTest:
+  types:
+  - ambiguous
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/SuperH_SH7216_Renesas/RTOSDemo/RenesasCode:
+  types:
+  - mandatory
+  - ambiguous
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/SuperH_SH7216_Renesas/RTOSDemo/webserver:
+  types:
+  - mandatory
+  - ambiguous
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/Tensilica_Simulator_Xplorer_XCC:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/TriCore_TC1782_TriBoard_GCC/RTOSDemo:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/WIN32-MSVC:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/WIN32-MSVC-Static-Allocation-Only:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/WIN32-MSVC/Trace_Recorder_Configuration:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/WIN32-MingW:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/WIN32-MingW/Trace_Recorder_Configuration:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/WizNET_DEMO_GCC_ARM7:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/WizNET_DEMO_TERN_186:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/WizNET_DEMO_TERN_186/include:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/dsPIC_MPLAB:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_AVR32_UC3:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_AVR32_UC3/BOARDS:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_AVR32_UC3/BOARDS/EVK1100:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_AVR32_UC3/BOARDS/EVK1101:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_AVR32_UC3/DRIVERS/FLASHC:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_AVR32_UC3/DRIVERS/GPIO:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_AVR32_UC3/DRIVERS/INTC:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_AVR32_UC3/DRIVERS/MACB:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_AVR32_UC3/DRIVERS/PM:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_AVR32_UC3/DRIVERS/TC:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_AVR32_UC3/DRIVERS/USART:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_AVR32_UC3/NETWORK:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_AVR32_UC3/NETWORK/BasicSMTP:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_AVR32_UC3/NETWORK/BasicTFTP:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_AVR32_UC3/NETWORK/BasicWEB:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_AVR32_UC3/NETWORK/lwip-port/AT32UC3A:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_AVR32_UC3/NETWORK/lwip-port/AT32UC3A/IAR:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_AVR32_UC3/NETWORK/lwip-port/AT32UC3A/arch:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_AVR32_UC3/SERVICES/USB/CLASS/DFU/EXAMPLES/ISP/BOOT:
+  types:
+  - ambiguous
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_AVR32_UC3/UTILS:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_AVR32_UC3/UTILS/PREPROCESSOR:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_Demo_Rowley_ARM7:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_Demo_Rowley_ARM7/EMAC:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_Demo_Rowley_ARM7/USB:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_Demo_Rowley_ARM7/lwip-1.1.0/contrib/port/FreeRTOS/AT91SAM7X
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_Demo_Rowley_ARM7/lwip-1.1.0/contrib/port/FreeRTOS/AT91SAM7X/arch
+: types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_Demo_Rowley_ARM7/lwip-1.1.0/src/include:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_Demo_Rowley_ARM7/lwip-1.1.0/src/include/ipv4:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_Demo_Rowley_ARM7/lwip-1.1.0/src/include/ipv6:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_Demo_Rowley_ARM7/lwip-1.1.0/src/include/lwip:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_Demo_Rowley_ARM7/lwip-1.1.0/src/netif/ppp:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_MCF5235_GCC:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_MCF5235_GCC/include/arch:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_MCF5235_GCC/lwip/contrib/port/FreeRTOS/MCF5235:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_MCF5235_GCC/lwip/contrib/port/FreeRTOS/MCF5235/arch:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_MCF5235_GCC/lwip/contrib/port/FreeRTOS/MCF5235/netif:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_MCF5235_GCC/lwip/src/include:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_MCF5235_GCC/lwip/src/include/ipv4:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_MCF5235_GCC/lwip/src/include/ipv6:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_MCF5235_GCC/lwip/src/include/lwip:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/lwIP_MCF5235_GCC/lwip/src/netif/ppp:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/msp430_CrossWorks:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/msp430_GCC:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Demo/msp430_IAR:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/include:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/ARMv8M/non_secure:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/ARMv8M/secure/context:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/ARMv8M/secure/heap:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/ARMv8M/secure/init:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/ARMv8M/secure/macros:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/BCC/16BitDOS/common:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/CCS/ARM_CM3:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/CCS/ARM_CM4F:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/CCS/ARM_Cortex-R4:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/CCS/MSP430X:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/CodeWarrior/ColdFire_V1:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/CodeWarrior/ColdFire_V2:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/CodeWarrior/HCS12:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/ARM7_AT91FR40008:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/ARM7_AT91SAM7S:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/ARM7_LPC2000:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/ARM7_LPC23xx:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/ARM_CA53_64_BIT:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/ARM_CA9:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/ARM_CM0:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/ARM_CM3:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/ARM_CM33/non_secure:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/ARM_CM33/secure:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/ARM_CM33_NTZ/non_secure:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/ARM_CM3_MPU:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/ARM_CM4F:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/ARM_CM4_MPU:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/ARM_CM7/r0p1:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/ARM_CR5:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/ARM_CRx_No_GIC:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/ATMega323:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/AVR32_UC3:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/CORTUS_APS3:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/ColdFire_V2:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/H8S2329:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/HCS12:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/IA32_flat:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/MCF5235:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/MSP430F449:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/MicroBlaze:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/MicroBlazeV8:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/MicroBlazeV9:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/NiosII:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/PPC405_Xilinx:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/PPC440_Xilinx:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/RISC-V:
+  types:
+  - mandatory
+  - optional
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/RISC-V/chip_specific_extensions/Pulpino_Vega_RV32M1RM
+: types:
+  - mandatory
+? c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/RISC-V/chip_specific_extensions/RV32I_CLINT_no_extensions
+: types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/RL78:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/RX100:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/RX600:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/RX600v2:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/STR75x:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/GCC/TriCore_1782:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/78K0R:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/ARM_CA5_No_GIC:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/ARM_CA9:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/ARM_CM0:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/ARM_CM3:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/ARM_CM33/non_secure:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/ARM_CM33/secure:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/ARM_CM33_NTZ/non_secure:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/ARM_CM4F:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/ARM_CM4F_MPU:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/ARM_CM7/r0p1:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/ARM_CRx_No_GIC:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/ATMega323:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/AVR32_UC3:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/AtmelSAM7S64:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/AtmelSAM9XE:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/LPC2000:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/MSP430:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/MSP430X:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/RL78:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/RX100:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/RX600:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/RXv2:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/STR71x:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/STR75x:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/STR91x:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/IAR/V850ES:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/MPLAB/PIC18F:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/MPLAB/PIC24_dsPIC:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/MPLAB/PIC32MEC14xx:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/MPLAB/PIC32MX:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/MPLAB/PIC32MZ:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/MSVC-MingW:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/MikroC/ARM_CM4F:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/Paradigm/Tern_EE/large_untested:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/Paradigm/Tern_EE/small:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/RVDS/ARM7_LPC21xx:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/RVDS/ARM_CA9:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/RVDS/ARM_CM0:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/RVDS/ARM_CM3:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/RVDS/ARM_CM4F:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/RVDS/ARM_CM4_MPU:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/RVDS/ARM_CM7/r0p1:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/Renesas/RX100:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/Renesas/RX200:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/Renesas/RX600:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/Renesas/RX600v2:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/Renesas/SH2A_FPU:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/Rowley/MSP430F449:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/SDCC/Cygnal:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/Softune/MB91460:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/Softune/MB96340:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/Tasking/ARM_CM4F:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/ThirdParty/GCC/RISC-V:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/ThirdParty/XCC/Xtensa:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/WizC/PIC18:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/oWatcom/16BitDOS/Flsh186:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/oWatcom/16BitDOS/PC:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/ARM.CMSIS-FreeRTOS.10.2.0/Source/portable/oWatcom/16BitDOS/common:
+  types:
+  - mandatory

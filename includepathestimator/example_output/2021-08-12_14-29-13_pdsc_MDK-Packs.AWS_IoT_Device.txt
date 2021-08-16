@@ -1,0 +1,202 @@
+Number of all header files:  55
+Header files visible via pdsc include paths (and includes): 35
+Header files visibility: 63.6 %
+
+Number of all source files:  88
+Sources files described in pdsc: 38
+Source description coverage: 43.2 %
+
+Combined headers + sources description coverage: 51.0 %
+
+Components in *.pdsc: 
+------------------------
+{'Cclass': 'IoT Utility', 'Cgroup': 'AWS', 'Csub': 'Platform', 'Cvariant': 'CMSIS-RTOS2 mbedTLS', 'Cversion': '1.0.0', 'condition': 'AWS Platform [CMSIS-RTOS2 mbedTLS]'}
+{'Cclass': 'IoT Utility', 'Cgroup': 'AWS', 'Csub': 'Common', 'Cversion': '1.1.0', 'condition': 'AWS Base'}
+{'Cclass': 'IoT Utility', 'Cgroup': 'AWS', 'Csub': 'Serializer', 'Cversion': '1.1.0', 'condition': 'AWS Serializer'}
+{'Cclass': 'IoT Utility', 'Cgroup': 'AWS', 'Csub': 'MQTT', 'Cversion': '2.1.0', 'condition': 'AWS MQTT'}
+{'Cclass': 'IoT Service', 'Cgroup': 'AWS', 'Csub': 'Common', 'Cversion': '1.0.0', 'condition': 'AWS Common'}
+{'Cclass': 'IoT Service', 'Cgroup': 'AWS', 'Csub': 'Jobs', 'Cversion': '1.0.0', 'condition': 'AWS Jobs'}
+{'Cclass': 'IoT Service', 'Cgroup': 'AWS', 'Csub': 'Thing Shadow', 'Cversion': '2.1.0', 'condition': 'AWS Shadow'}
+{'Cclass': 'IoT Service', 'Cgroup': 'AWS', 'Csub': 'Device Defender', 'Cversion': '3.0.0', 'condition': 'AWS Defender'}
+{'Cclass': 'IoT Client', 'Cgroup': 'AWS', 'Cversion': '4.0.0', 'condition': 'AWS IoT Client'}
+
+Bundles in *.pdsc: 
+------------------------
+
+
+Examples in *.pdsc: 
+------------------------
+
+
+Include paths *.pdsc:
+------------------------
+addon
+config
+libraries
+libraries/aws/common/include
+libraries/aws/defender/include
+libraries/aws/jobs/include
+libraries/aws/shadow/include
+libraries/platform
+libraries/standard/common/include
+libraries/standard/mqtt/include
+libraries/standard/serializer/include
+ports/cmsis/include
+ports/common/include
+third_party/mbedtls/mbedtls/config
+third_party/mbedtls/mbedtls/include/mbedtls
+
+Headers visible via pdsc include paths:
+------------------------
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/addon/iot_pki_utils.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/config/iot_config.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/common/include/aws_iot.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/common/include/aws_iot_doc_parser.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/defender/include/aws_iot_defender.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/jobs/include/aws_iot_jobs.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/jobs/include/types/aws_iot_jobs_types.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/shadow/include/aws_iot_shadow.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/shadow/include/types/aws_iot_shadow_types.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/platform/iot_clock.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/platform/iot_metrics.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/platform/iot_network.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/platform/iot_threads.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/platform/types/iot_platform_types.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/common/include/iot_error.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/common/include/iot_init.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/common/include/iot_linear_containers.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/common/include/iot_logging.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/common/include/iot_logging_setup.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/common/include/iot_static_memory.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/common/include/iot_taskpool.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/common/include/types/iot_taskpool_types.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/include/iot_mqtt.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/include/iot_mqtt_serialize.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/include/types/iot_mqtt_types.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/serializer/include/iot_serializer.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/ports/cmsis/include/iot_platform_types_cmsis.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/ports/common/include/atomic/iot_atomic_gcc.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/ports/common/include/atomic/iot_atomic_generic.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/ports/common/include/iot_atomic.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/ports/common/include/iot_network_mbedtls.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/ports/common/include/iot_network_metrics.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/ports/common/include/iot_network_openssl.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/third_party/mbedtls/mbedtls/config/iot_config_mbedtls.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/third_party/mbedtls/mbedtls/include/mbedtls/threading_alt.h
+
+Headers not visible via pdsc include paths:
+------------------------
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/demos/include/iot_demo_arguments.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/demos/include/iot_demo_logging.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/demos/iot_config.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/defender/src/private/aws_iot_defender_internal.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/jobs/src/private/aws_iot_jobs_internal.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/shadow/src/private/aws_iot_shadow_internal.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/common/src/private/iot_taskpool_internal.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/src/private/iot_mqtt_internal.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/test/access/iot_test_access_mqtt.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/test/mock/iot_tests_mqtt_mock.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/ports/posix/include/iot_platform_types_posix.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/ports/template/include/iot_platform_types_template.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/tests/iot_config.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/third_party/mbedtls/iot_config_mbedtls.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/third_party/mbedtls/threading_alt.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/third_party/unity/unity/fixture/unity_fixture.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/third_party/unity/unity/fixture/unity_fixture_internals.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/third_party/unity/unity/fixture/unity_fixture_malloc_overrides.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/third_party/unity/unity/unity.h
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/third_party/unity/unity/unity_internals.h
+
+Sources described in pdsc:
+------------------------
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/addon/iot_pki_utils.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/common/src/aws_iot_doc_parser.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/common/src/aws_iot_operation.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/common/src/aws_iot_parser.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/common/src/aws_iot_subscription.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/common/src/aws_iot_validate.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/defender/src/aws_iot_defender_api.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/defender/src/aws_iot_defender_collector.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/defender/src/aws_iot_defender_mqtt.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/jobs/src/aws_iot_jobs_api.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/jobs/src/aws_iot_jobs_operation.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/jobs/src/aws_iot_jobs_serialize.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/jobs/src/aws_iot_jobs_static_memory.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/jobs/src/aws_iot_jobs_subscription.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/shadow/src/aws_iot_shadow_api.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/shadow/src/aws_iot_shadow_operation.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/shadow/src/aws_iot_shadow_parser.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/shadow/src/aws_iot_shadow_static_memory.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/shadow/src/aws_iot_shadow_subscription.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/common/src/iot_init.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/common/src/iot_logging.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/common/src/iot_static_memory_common.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/common/src/iot_taskpool.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/common/src/iot_taskpool_static_memory.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/src/iot_mqtt_api.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/src/iot_mqtt_network.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/src/iot_mqtt_operation.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/src/iot_mqtt_serialize.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/src/iot_mqtt_static_memory.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/src/iot_mqtt_subscription.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/src/iot_mqtt_validate.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/serializer/src/cbor/iot_serializer_tinycbor_decoder.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/serializer/src/cbor/iot_serializer_tinycbor_encoder.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/serializer/src/iot_serializer_static_memory.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/ports/cmsis/src/iot_clock_cmsis.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/ports/cmsis/src/iot_threads_cmsis.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/ports/rte/src/iot_network_mbedtls.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/ports/rte/src/iot_network_metrics.c
+
+Sources not described in pdsc:
+------------------------
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/cbmc/proofs/DeserializeConnack/DeserializeConnack_harness.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/cbmc/proofs/DeserializePingresp/DeserializePingresp_harness.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/cbmc/proofs/DeserializePuback/DeserializePuback_harness.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/cbmc/proofs/DeserializePublish/DeserializePublish_harness.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/cbmc/proofs/DeserializeSuback/DeserializeSuback_harness.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/cbmc/proofs/DeserializeUnsuback/DeserializeUnsuback_harness.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/demos/app/iot_demo.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/demos/app/iot_demo_arguments.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/demos/src/aws_iot_demo_defender.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/demos/src/aws_iot_demo_jobs.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/demos/src/aws_iot_demo_shadow.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/demos/src/iot_demo_mqtt.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/common/test/aws_iot_tests_common.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/common/test/unit/aws_iot_tests_doc_parser.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/defender/test/aws_iot_tests_defender.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/defender/test/system/aws_iot_tests_defender_system.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/jobs/test/aws_iot_tests_jobs.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/jobs/test/system/aws_iot_tests_jobs_system.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/jobs/test/unit/aws_iot_tests_jobs_api.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/jobs/test/unit/aws_iot_tests_jobs_serialize.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/shadow/test/aws_iot_tests_shadow.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/shadow/test/system/aws_iot_tests_shadow_system.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/shadow/test/unit/aws_iot_tests_shadow_api.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/shadow/test/unit/aws_iot_tests_shadow_parser.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/common/test/iot_tests_common.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/common/test/unit/iot_tests_atomic.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/common/test/unit/iot_tests_linear_containers.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/common/test/unit/iot_tests_taskpool.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/test/access/iot_test_access_mqtt_api.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/test/access/iot_test_access_mqtt_subscription.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/test/iot_tests_mqtt.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/test/mock/iot_tests_mqtt_mock.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/test/system/iot_tests_mqtt_system.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/test/unit/iot_tests_mqtt_api.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/test/unit/iot_tests_mqtt_receive.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/test/unit/iot_tests_mqtt_subscription.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/test/unit/iot_tests_mqtt_validate.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/serializer/test/iot_tests_serializer.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/serializer/test/unit/iot_tests_serializer_cbor.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/ports/common/src/iot_network_mbedtls.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/ports/common/src/iot_network_metrics.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/ports/common/src/iot_network_openssl.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/ports/posix/src/iot_clock_posix.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/ports/posix/src/iot_threads_posix.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/ports/template/src/iot_clock_template.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/ports/template/src/iot_threads_template.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/tests/iot_tests.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/third_party/unity/unity/fixture/unity_fixture.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/third_party/unity/unity/fixture/unity_memory_mt.c
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/third_party/unity/unity/unity.c

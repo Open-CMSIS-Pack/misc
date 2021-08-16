@@ -1,0 +1,78 @@
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/addon:
+  types:
+  - optional
+  - mandatory
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/config:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/demos:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/demos/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/common/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/defender/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/defender/src:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/jobs/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/jobs/src:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/shadow/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/shadow/src:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/platform:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/common/include:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/common/src:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/src:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/test/access:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/test/mock:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/serializer/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/ports/common/include:
+  types:
+  - mandatory
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/tests:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/third_party/unity/unity:
+  types:
+  - mandatory
+  - optional
+c:/GIT_shadowfax/misc/components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/third_party/unity/unity/fixture:
+  types:
+  - mandatory
+  - optional
