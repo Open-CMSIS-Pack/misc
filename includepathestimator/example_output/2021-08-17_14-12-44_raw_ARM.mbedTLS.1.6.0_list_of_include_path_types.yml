@@ -1,0 +1,10 @@
+mandatory:
+- ../components/ARM.mbedTLS.1.6.0/MDK/examples/ssl_client1/RTE/Network
+- ../components/ARM.mbedTLS.1.6.0/MDK/examples/ssl_client1/RTE/Security
+- ../components/ARM.mbedTLS.1.6.0/MDK/examples/ssl_client1/RTE/_MCB1800
+- ../components/ARM.mbedTLS.1.6.0/MDK/examples/ssl_server/RTE/Network
+- ../components/ARM.mbedTLS.1.6.0/MDK/examples/ssl_server/RTE/Security
+- ../components/ARM.mbedTLS.1.6.0/MDK/examples/ssl_server/RTE/_MCB1800
+- ../components/ARM.mbedTLS.1.6.0/configs
+- ../components/ARM.mbedTLS.1.6.0/include
+- ../components/ARM.mbedTLS.1.6.0/include/mbedtls

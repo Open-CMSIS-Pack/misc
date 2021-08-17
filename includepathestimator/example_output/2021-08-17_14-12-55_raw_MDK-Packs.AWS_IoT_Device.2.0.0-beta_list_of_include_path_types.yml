@@ -1,0 +1,25 @@
+mandatory:
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/addon
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/config
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/demos
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/demos/include
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/common/include
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/defender/include
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/defender/src
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/jobs/include
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/jobs/src
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/shadow/include
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/aws/shadow/src
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/platform
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/common/include
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/common/src
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/include
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/src
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/test/access
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/mqtt/test/mock
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/libraries/standard/serializer/include
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/ports/common/include
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/tests
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/third_party/unity/unity
+- ../components/MDK-Packs.AWS_IoT_Device.2.0.0-beta/third_party/unity/unity/fixture

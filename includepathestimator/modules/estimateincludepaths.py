@@ -11,6 +11,7 @@ import argparse
 import glob
 import re
 import os
+import mmap
 from pathlib import Path, PurePath
 import datetime
 import time
@@ -359,23 +360,35 @@ def includes_from_file(file):
                 if match:
                     include = match.group("inc_path")
                     file_includes.append(include)
-    file_includes = sorted(file_includes)
-    return file_includes
+    return sorted(file_includes)
 
-# def identify_main(file):
-#    """Extract includes used in source files by regex analysis."""
-#    strings = ['main()', 'int main()', 'int main(void)']
-#    file_includes = list()
-#    #include_regex = r'#include ["<](?P<inc_path>[^">]*)'
-#    if file.lower().endswith(tuple(source_types)):
-#        with open(file, "r", encoding="utf-8", errors="ignore") as file_data:
-#            for line in file_data:
-#                match = re.search(include_regex, line)
-#                if match:
-#                    include = match.group("inc_path")
-#                    file_includes.append(include)
-#    file_includes = sorted(file_includes)
-#    return file_includes
+
+def identify_main(file):
+    """Extract includes used in source files by regex analysis."""
+    # TODO: eliminate main functions in comments.
+    status = False
+    regex = [r'void\s*main\s*\(\s*void\s*\)\s*{',
+             r'int\s*main\s*\(\s*void\s*\)\s*{',
+             r'void\s*main\s*\(\s*\)\s*{',
+             r'int\s*main\s*\(\s*\)\s*{',
+             r'int\s*main\s*\(\s*int\s*argc\s*,\s*char\s*\*\*\s*argv\s*\)\s*{',
+             r'int\s*main\s*\(\s*int\s*argc\s*,\s*char\s*\*\s*argv\s*\[\]\)\s*{']
+    if file.lower().endswith(tuple([".c",".cpp"])):
+        with open(file, "r+") as f:
+            data = mmap.mmap(f.fileno(), 0).read().decode(encoding="utf-8",errors='ignore')
+            for r in regex:
+                if re.search(r, data):
+                    status = True
+                    break
+    return status
+
+def all_main_sources(sources):
+    """List all source files with main() function."""
+    sources_with_main = list()
+    for file in sources:
+        if identify_main(file):
+            sources_with_main.append(file)
+    return sources_with_main
 
 
 def get_root(database):
@@ -701,6 +714,11 @@ def estimate_include_paths(root):
         print("------------------------", file=report_file)
         print_list(c_source_folders(sources), file=report_file)
 
+
+        sources_with_main = all_main_sources(sources)
+        print("\nC and CPP sources with main():", file=report_file)
+        print("------------------------", file=report_file)
+        print_list(sources_with_main, file=report_file)
 
 # --------MAIN--------
 if __name__ == "__main__":

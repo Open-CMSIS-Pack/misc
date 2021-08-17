@@ -33,6 +33,7 @@ python estimateincludepaths.py -r c:\GIT\mcu-sdk-2.0\middleware\lwip
 - C source folder list
 - Common include path prefix
 - Include statistics
+- Application files - c a cpp files with main function
 
 ### Glossary
 - source_code_folder - root of source code location

@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 """ *.pdsc description coverage
-This script percentual description coverage of source code in cmsis pack.
+This script provides description coverage of source code in cmsis pack, expressed as a percentage.
 """
 
 import os
@@ -22,7 +22,7 @@ def args():
     """Load arguments from command line."""
     parser = argparse.ArgumentParser(
         description="Show *.pdsc description coverage.",
-        epilog=r"Example: python pdsccoverage.py -p c:\components\ARM.mbedTLS.1.6.0",
+        epilog=r"Example: python pdsccoverage.py -p c:/components/ARM.mbedTLS.1.6.0",
     )
     parser.add_argument(
         "-p",
@@ -34,7 +34,7 @@ def args():
 
 
 def pdsc_include_paths(file_name):
-    """Return standard POSIX path separator."""
+    """Extract include paths from pdsc."""
     include_paths = list()
     tree = ET.parse(file_name)
     xml_root = tree.getroot()
@@ -52,7 +52,7 @@ def pdsc_include_paths(file_name):
 
 
 def pdsc_sources(file_name):
-    """Return standard POSIX path separator."""
+    """Extract source files from pdsc."""
     sources = list()
     tree = ET.parse(file_name)
     xml_root = tree.getroot()
@@ -64,7 +64,7 @@ def pdsc_sources(file_name):
 
 
 def pdsc_components(file_name):
-    """Return standard POSIX path separator."""
+    """Extract components from pdsc."""
     components = list()
     tree = ET.parse(file_name)
     xml_root = tree.getroot()
@@ -74,7 +74,7 @@ def pdsc_components(file_name):
 
 
 def pdsc_bundles(file_name):
-    """Return standard POSIX path separator."""
+    """Extract bundles from pdsc."""
     bundles = list()
     tree = ET.parse(file_name)
     xml_root = tree.getroot()
@@ -84,7 +84,7 @@ def pdsc_bundles(file_name):
 
 
 def pdsc_examples(file_name):
-    """Return standard POSIX path separator."""
+    """Extract examples from pdsc"""
     examples = list()
     tree = ET.parse(file_name)
     xml_root = tree.getroot()
@@ -94,14 +94,14 @@ def pdsc_examples(file_name):
 
 
 def all_headers(root_path):
-    """ List files in scope of include paths. """
+    """ List all header files in root path recursively. """
     sources = eip.source_files(root_path)
     headers = eip.header_files(sources)
     return headers
 
 
 def all_sources(root_path):
-    """ List files in scope of include paths. """
+    """ List all source files (except *.h files) in root path. """
     sources = eip.source_files(root_path)
     headers = eip.header_files(sources)
     sources = set(sources) - set(headers)
@@ -135,7 +135,7 @@ def headers_in_paths_scope(include_paths, includes_list, root_path):
 
 
 def full_path(root_path, paths):
-    """Filter header files only from source files list."""
+    """Combine pdsc file paths with root folder path to form absolute path."""
     return sorted({PurePath(root_path + eip.separator() + p).as_posix()
                   for p in paths})
 
@@ -149,7 +149,7 @@ def headers_in_folder(folder):
 
 
 def pdsc_in_folder(folder):
-    """Get list of header files from single folder."""
+    """Get pdsc file from single folder."""
     pdsc = glob.glob(folder + eip.separator() + "*.pdsc")
     return PurePath(pdsc[0]).as_posix()
 
