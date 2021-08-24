@@ -1,3 +1,10 @@
+# Copyright 2021 NXP
+# All rights reserved.
+#
+# SPDX-License-Identifier: Apache-2.0
+
+""" Batch analysis of all extracted cmsis packs in components folder."""
+
 import os
 from modules import estimateincludepaths as eip
 from modules import pdsccoverage as pcov

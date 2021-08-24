@@ -1,3 +1,10 @@
+# Copyright 2021 NXP
+# All rights reserved.
+#
+# SPDX-License-Identifier: Apache-2.0
+
+""" Execution of include path estimation and pdsc coverage for specific pack."""
+
 import os
 from modules import estimateincludepaths as eip
 from modules import pdsccoverage as pcov
