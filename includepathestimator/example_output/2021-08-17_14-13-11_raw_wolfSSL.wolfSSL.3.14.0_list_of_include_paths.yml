@@ -1,0 +1,151 @@
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl:
+  types:
+  - mandatory
+  - optional
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/GCC-ARM/Header:
+  types:
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/HEXIWEAR/wolfSSL_HW:
+  types:
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/IAR-EWARM/Projects:
+  types:
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/IAR-EWARM/embOS/SAMV71_XULT/embOS_SAMV71_XULT_user_settings:
+  types:
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/IAR-EWARM/embOS/custom_port/custom_port_user_settings:
+  types:
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/INTIME-RTOS:
+  types:
+  - optional
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/LPCXPRESSO/lib_wolfssl:
+  types:
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/MDK-ARM/MDK-ARM/wolfSSL:
+  types:
+  - mandatory
+  - optional
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/MDK5-ARM/Conf:
+  types:
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/MDK5-ARM/Inc:
+  types:
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/MDK5-ARM/Projects/CryptBenchmark/RTE/File_System:
+  types:
+  - optional
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/MDK5-ARM/Projects/CryptBenchmark/RTE/wolfSSL:
+  types:
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/MDK5-ARM/Projects/CryptTest/RTE/File_System:
+  types:
+  - mandatory
+  - optional
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/MDK5-ARM/Projects/CryptTest/RTE/wolfSSL:
+  types:
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/MDK5-ARM/Projects/EchoClient/RTE/File_System:
+  types:
+  - mandatory
+  - optional
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/MDK5-ARM/Projects/EchoClient/RTE/Network:
+  types:
+  - optional
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/MDK5-ARM/Projects/EchoServer/RTE/File_System:
+  types:
+  - mandatory
+  - optional
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/MDK5-ARM/Projects/EchoServer/RTE/Network:
+  types:
+  - mandatory
+  - optional
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/MDK5-ARM/Projects/SimpleClient/RTE/File_System:
+  types:
+  - mandatory
+  - optional
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/MDK5-ARM/Projects/SimpleClient/RTE/Network:
+  types:
+  - mandatory
+  - optional
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/MDK5-ARM/Projects/SimpleServer/RTE/File_System:
+  types:
+  - mandatory
+  - optional
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/MDK5-ARM/Projects/SimpleServer/RTE/Network:
+  types:
+  - mandatory
+  - optional
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/MDK5-ARM/Projects/wolfSSL-Full/RTE/File_System:
+  types:
+  - mandatory
+  - optional
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/MDK5-ARM/Projects/wolfSSL-Lib/RTE/File_System:
+  types:
+  - mandatory
+  - optional
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/OPENSTM32/Inc:
+  types:
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/ROWLEY-CROSSWORKS-ARM:
+  types:
+  - optional
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/VS-ARM:
+  types:
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/WIN:
+  types:
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/IDE/XCODE:
+  types:
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/cyassl:
+  types:
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/cyassl/ctaocrypt:
+  types:
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/cyassl/openssl:
+  types:
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/mcapi:
+  types:
+  - mandatory
+  - optional
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/mplabx:
+  types:
+  - mandatory
+  - optional
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/mqx/util_lib/Sources:
+  types:
+  - optional
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/mqx/wolfcrypt_benchmark/Sources:
+  types:
+  - optional
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/mqx/wolfcrypt_test/Sources:
+  types:
+  - mandatory
+  - optional
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/mqx/wolfssl_client/Sources:
+  types:
+  - mandatory
+  - optional
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/wolfcrypt/user-crypto/include:
+  types:
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/wolfssl:
+  types:
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/wolfssl/openssl:
+  types:
+  - mandatory
+../components/wolfSSL.wolfSSL.3.14.0/wolfssl/wolfssl/wolfcrypt:
+  types:
+  - optional

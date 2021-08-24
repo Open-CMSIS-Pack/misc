@@ -1,6 +1,6 @@
 NXP Software Content Register
 
-Package:                   estimateincludepaths 0.1.0
+Package:                   estimateincludepaths 0.2.0
 Outgoing License:          Apache-2.0
 License Files:             LICENSE
 Type of content:           Source code

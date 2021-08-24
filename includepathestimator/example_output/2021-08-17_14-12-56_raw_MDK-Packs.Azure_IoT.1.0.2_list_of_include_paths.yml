@@ -1,0 +1,169 @@
+../components/MDK-Packs.Azure_IoT.1.0.2/c-utility/adapters:
+  types:
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/c-utility/inc:
+  types:
+  - mandatory
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/c-utility/inc/azure_c_shared_utility:
+  types:
+  - optional
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/c-utility/inc/azure_c_shared_utility/windowsce:
+  types:
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/c-utility/pal/generic:
+  types:
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/c-utility/pal/inc:
+  types:
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/c-utility/pal/ios-osx:
+  types:
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/c-utility/pal/linux:
+  types:
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/c-utility/pal/lwip:
+  types:
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/c-utility/pal/windows:
+  types:
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/c-utility/tests/dns_async_ut/win32_fake_linux:
+  types:
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/c-utility/tests/real_test_files:
+  types:
+  - mandatory
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/c-utility/tests/refcount_ut:
+  types:
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/c-utility/tests/socket_async_ut:
+  types:
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/c-utility/tests/socket_async_ut/win32_fake_linux:
+  types:
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/c-utility/tests/template_ut:
+  types:
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/c-utility/tests/template_ut/target:
+  types:
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/c-utility/tests/tickcounter_freertos_ut:
+  types:
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/c-utility/tests/tlsio_options_ut:
+  types:
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/certificates:
+  types:
+  - optional
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/deps/parson:
+  types:
+  - optional
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/iothub_client/inc:
+  types:
+  - optional
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/iothub_client/samples/iothub_client_sample_amqp_websockets:
+  types:
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/iothub_client/samples/iothub_client_sample_http_shared:
+  types:
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/iothub_client/samples/iothub_client_sample_mqtt_dm:
+  types:
+  - mandatory
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/iothub_client/samples/iothub_client_sample_mqtt_esp8266:
+  types:
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/iothub_client/samples/iothub_client_sample_upload_to_blob:
+  types:
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/iothub_client/samples/iothub_client_sample_upload_to_blob_mb:
+  types:
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/iothub_client/tests/common_device_method_e2e:
+  types:
+  - optional
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/iothub_client/tests/common_dt_e2e:
+  types:
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/iothub_client/tests/common_e2e:
+  types:
+  - optional
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/iothub_client/tests/common_longhaul:
+  types:
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/iothub_client/tests/iothubtransport_mqtt_common_ut:
+  types:
+  - optional
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/iothub_client/tests/iothubtransportmqtt_ut:
+  types:
+  - mandatory
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/serializer/inc:
+  types:
+  - mandatory
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/serializer/samples/devicemethod_simplesample:
+  types:
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/serializer/samples/simplesample_amqp:
+  types:
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/serializer/samples/simplesample_http:
+  types:
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/serializer/samples/simplesample_http/tirtos/cc3200:
+  types:
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/serializer/samples/simplesample_mqtt:
+  types:
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/serializer/tests/codefirst_cpp_ut:
+  types:
+  - mandatory
+../components/MDK-Packs.Azure_IoT.1.0.2/serializer/tests/codefirst_ut:
+  types:
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/serializer/tests/datamarshaller_ut:
+  types:
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/serializer/tests/methodreturn_ut:
+  types:
+  - mandatory
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/serializer/tests/serializer_dt_ut:
+  types:
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/serializer/tests/serializer_e2e:
+  types:
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/uamqp/inc:
+  types:
+  - mandatory
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/uamqp/samples/local_server_tls_sample:
+  types:
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/uamqp/samples/websockets_sample:
+  types:
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/umqtt/inc:
+  types:
+  - mandatory
+  - optional
+../components/MDK-Packs.Azure_IoT.1.0.2/umqtt/samples/mqtt_client_sample:
+  types:
+  - mandatory
+  - optional
