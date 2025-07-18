@@ -1,6 +1,8 @@
 # misc
 Miscellaneous space for experiments, undecided, new stuff
 
+## !!! This repository is no longer used and archived !!!
+
 This space is experimental and not intended for wider use but investigation and spiking. 
 Once an idea settles it will be transferred to an existing repository or migrated to a dedicated repository.
 
